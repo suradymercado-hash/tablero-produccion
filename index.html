@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Tablero de Producción · CMC Cases</title>
+<style>
+:root{--az:#0D3FC4;--mar:#142544;--ne:#0A0A0A;--pl:#9AA3AB;--do:#F0B429;--bg:#f4f6fa;--card:#fff;--tx:#142544;--ok:#1f9d55;--line:#dde2ea}
+@media(prefers-color-scheme:dark){:root{--bg:#0e1626;--card:#16223a;--tx:#e8edf6;--line:#2a3a5a}}
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--tx)}
+header{background:var(--az);color:#fff;padding:16px}
+header h1{margin:0;font-size:1.25rem;letter-spacing:.5px;text-transform:uppercase}
+header p{margin:4px 0 0;opacity:.85;font-size:.85rem}
+.bar{position:sticky;top:0;z-index:5;background:var(--bg);padding:10px 16px;display:flex;gap:8px;flex-wrap:wrap;border-bottom:1px solid var(--line)}
+.bar input{flex:1;min-width:180px;padding:10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--tx);font-size:1rem}
+.chip{border:1px solid var(--line);background:var(--card);color:var(--tx);padding:8px 12px;border-radius:20px;cursor:pointer;font-size:.9rem}
+.chip.on{background:var(--mar);color:#fff;border-color:var(--mar)}
+main{padding:12px 16px;max-width:1000px;margin:auto}
+h2{font-size:.95rem;text-transform:uppercase;letter-spacing:.8px;color:var(--pl);margin:22px 0 8px;display:flex;justify-content:space-between}
+.card{background:var(--card);border:1px solid var(--line);border-left:5px solid var(--az);border-radius:10px;padding:12px;margin-bottom:10px;cursor:pointer}
+.card.done{border-left-color:var(--ok)}
+.top{display:flex;gap:10px;align-items:flex-start}
+.n{background:var(--mar);color:#fff;border-radius:8px;min-width:34px;text-align:center;padding:6px 4px;font-weight:700}
+.t{flex:1}.t b{display:block}.t small{color:var(--pl)}
+.op{font-weight:700;color:var(--az)}@media(prefers-color-scheme:dark){.op{color:#8fb0ff}}
+.badge{font-size:.72rem;padding:2px 8px;border-radius:10px;background:var(--line);margin-left:4px}
+.badge.w{background:var(--do);color:#000}
+.steps{display:flex;gap:3px;margin-top:10px}
+.steps i{flex:1;height:7px;border-radius:4px;background:var(--line)}
+.steps i.ok{background:var(--ok)}.steps i.x{background:var(--do)}
+.pct{font-size:.78rem;color:var(--pl);margin-top:4px}
+dialog{border:none;border-radius:14px;padding:0;width:min(640px,94vw);max-height:90vh;background:var(--card);color:var(--tx)}
+dialog::backdrop{background:#000a}
+.dh{background:var(--mar);color:#fff;padding:14px 16px;position:sticky;top:0}
+.dh button{float:right;background:var(--do);border:0;border-radius:8px;padding:6px 12px;font-weight:700;cursor:pointer}
+.db{padding:14px 16px 20px}
+.db h3{margin:16px 0 6px;font-size:.85rem;text-transform:uppercase;color:var(--pl);letter-spacing:.8px}
+table{width:100%;border-collapse:collapse;font-size:.92rem}td,th{padding:5px 6px;border-bottom:1px solid var(--line);text-align:left}
+.pl{display:grid;grid-template-columns:1fr 1fr;gap:4px 12px}
+.pl div{display:flex;gap:6px;align-items:center;font-size:.9rem}
+.dot{width:12px;height:12px;border-radius:50%;background:var(--line);flex:none}.dot.ok{background:var(--ok)}.dot.x{background:var(--do)}
+.note{background:rgba(240,180,41,.18);border-left:4px solid var(--do);padding:8px 10px;border-radius:6px;margin:6px 0}
+.vacio{color:var(--pl);font-style:italic}
+footer{text-align:center;color:var(--pl);font-size:.8rem;padding:20px}
+</style>
+</head>
+<body>
+<header><h1>Tablero de producción · CMC Cases</h1><p id="sub"></p></header>
+<div class="bar"><input id="q" type="search" placeholder="Buscar cliente, OP o producto…"><span id="chips"></span></div>
+<main id="m"></main>
+<footer id="f"></footer>
+<dialog id="d"><div class="dh"><button onclick="d.close()">Cerrar</button><b id="dt"></b><div id="ds" style="opacity:.8;font-size:.85rem"></div></div><div class="db" id="db"></div></dialog>
+<script>
+const $=id=>document.getElementById(id),esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+let D,filtro='Todos',txt='';
+fetch('data.json').then(r=>r.json()).then(j=>{D=j;
+ const ops=['Todos',...new Set(D.filas.filter(f=>f.operario).map(f=>f.operario))];
+ $('chips').innerHTML=ops.map(o=>`<button class="chip ${o==filtro?'on':''}" data-o="${esc(o)}">${esc(o)}</button>`).join(' ');
+ $('chips').onclick=e=>{if(e.target.dataset.o){filtro=e.target.dataset.o;[...$('chips').children].forEach(c=>c.classList.toggle('on',c.dataset.o==filtro));draw()}};
+ $('sub').textContent='Secuencia semana 42 · fichas OP W41 y W42 · actualizado '+D.generado;
+ $('f').textContent='Orden de arriba hacia abajo = orden de producción. Datos tomados de SECUENCIA 2026 y de las fichas de órdenes.';
+ draw()});
+$('q').oninput=e=>{txt=e.target.value.toLowerCase();draw()};
+function pct(f){const t=f.pasos.length,o=f.pasos.filter(p=>p.e=='ok').length;return Math.round(o/t*100)}
+function card(f){const p=pct(f);
+ return `<div class="card ${p==100?'done':''}" data-i="${f.pos}"><div class="top"><div class="n">${f.pos}</div><div class="t"><span class="op">OP ${f.orden}</span>${f.operario?`<span class="badge">${esc(f.operario)}</span>`:''}${f.ficha?'':'<span class="badge">sin ficha</span>'}${f.obs?`<span class="badge w">${esc(f.obs)}</span>`:''}<b>${f.cant?f.cant+' × ':''}${esc(f.desc)}</b><small>${esc(f.cliente)}</small></div></div><div class="steps">${f.pasos.map(s=>`<i class="${s.e=='ok'?'ok':s.e?'x':''}" title="${esc(s.p)}"></i>`).join('')}</div><div class="pct">${p}% de pasos completos</div></div>`}
+function draw(){let h='',cur='';
+ const L=D.filas.filter(f=>(filtro=='Todos'||f.operario==filtro)&&(!txt||(f.cliente+f.orden+f.desc).toLowerCase().includes(txt)));
+ for(const f of L){if(f.seccion!=cur){cur=f.seccion;h+=`<h2><span>${esc(cur)}</span><span>${L.filter(x=>x.seccion==cur).length} órdenes</span></h2>`}
+  h+=card(f)}
+ $('m').innerHTML=h||'<p class="vacio">Sin resultados.</p>'}
+$('m').onclick=e=>{const c=e.target.closest('.card');if(!c)return;const f=D.filas.find(x=>x.pos==c.dataset.i);
+ $('dt').textContent=`OP ${f.orden} · ${f.cant?f.cant+' × ':''}${f.desc}`;$('ds').textContent=f.cliente+(f.operario?' · '+f.operario:'');
+ let h='';
+ if(f.obs)h+=`<div class="note"><b>Observación:</b> ${esc(f.obs)}</div>`;
+ if(f.nota2)h+=`<div class="note"><b>Nota:</b> ${esc(f.nota2)}</div>`;
+ h+='<h3>Avance por paso</h3><div class="pl">'+f.pasos.map(s=>`<div><span class="dot ${s.e=='ok'?'ok':s.e?'x':''}"></span>${esc(s.p)}${s.e&&s.e!='ok'?` <small>(${esc(s.e)})</small>`:''}</div>`).join('')+'</div>';
+ const fi=f.ficha;
+ if(!fi)h+='<h3>Especificaciones</h3><p class="vacio">La ficha de esta orden no está en OP W41 ni OP W42 (es de una semana anterior). Consúltala en el archivo de órdenes de su semana.</p>';
+ else{h+=`<h3>Ficha ${esc(fi.archivo)} · ${esc(fi.fecha)}</h3>`;
+  if(fi.lineas.length>1)h+='<table>'+fi.lineas.map(l=>`<tr><td>${l.cant}</td><td>${esc(l.desc)}</td></tr>`).join('')+'</table>';
+  if(fi.embalaje)h+=`<p><b>Embalaje:</b> ${esc(fi.embalaje)}</p>`;
+  const it=fi.item;
+  if(it){h+='<h3>Requerimiento de material</h3><table><tr><th>Componente</th><th>Cant.</th><th>Detalle</th></tr>'+it.mats.map(m=>`<tr><td>${esc(m.m)}</td><td>${m.cant??''}</td><td>${esc(m.d)}</td></tr>`).join('')+'</table>';
+   if(it.notas.length)h+='<h3>Notas de la orden</h3>'+it.notas.map(n=>`<div class="note">${esc(n)}</div>`).join('')}
+  else h+='<p class="vacio">No se pudo emparejar el ítem con la ficha; revisa el archivo.</p>'}
+ $('db').innerHTML=h;d.showModal()};
+</script>
+</body>
+</html>
