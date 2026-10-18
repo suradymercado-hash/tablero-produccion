@@ -57,13 +57,13 @@ fetch('data.json').then(r=>r.json()).then(j=>{D=j;
  const ops=['Todos',...new Set(D.filas.filter(f=>f.operario).map(f=>f.operario))];
  $('chips').innerHTML=ops.map(o=>`<button class="chip ${o==filtro?'on':''}" data-o="${esc(o)}">${esc(o)}</button>`).join(' ');
  $('chips').onclick=e=>{if(e.target.dataset.o){filtro=e.target.dataset.o;[...$('chips').children].forEach(c=>c.classList.toggle('on',c.dataset.o==filtro));draw()}};
- $('sub').textContent='Secuencia semana 42 · fichas OP W41 y W42 · actualizado '+D.generado;
+ $('sub').textContent='Secuencia semana 42 · fichas OP W41 y W42 · cuando una orden de la semana 42 completa Trazo→Alistar accesorios pasa a Ensamble externo · actualizado '+D.generado;
  $('f').textContent='Orden de arriba hacia abajo = orden de producción. Datos tomados de SECUENCIA 2026 y de las fichas de órdenes.';
  draw()});
 $('q').oninput=e=>{txt=e.target.value.toLowerCase();draw()};
 function pct(f){const t=f.pasos.length,o=f.pasos.filter(p=>p.e=='ok').length;return Math.round(o/t*100)}
 function card(f){const p=pct(f);
- return `<div class="card ${p==100?'done':''}" data-i="${f.pos}"><div class="top"><div class="n">${f.pos}</div><div class="t"><span class="op">OP ${f.orden}</span>${f.operario?`<span class="badge">${esc(f.operario)}</span>`:''}${f.ficha?'':'<span class="badge">sin ficha</span>'}${f.obs?`<span class="badge w">${esc(f.obs)}</span>`:''}<b>${f.cant?f.cant+' × ':''}${esc(f.desc)}</b><small>${esc(f.cliente)}</small></div></div><div class="steps">${f.pasos.map(s=>`<i class="${s.e=='ok'?'ok':s.e?'x':''}" title="${esc(s.p)}"></i>`).join('')}</div><div class="pct">${p}% de pasos completos</div></div>`}
+ return `<div class="card ${p==100?'done':''}" data-i="${f.pos}"><div class="top"><div class="n">${f.pos}</div><div class="t"><span class="op">OP ${f.orden}</span>${f.operario?`<span class="badge">${f.seccion.startsWith('Ensamble externo')?'Ensamblador: ':''}${esc(f.operario)}</span>`:(f.seccion.startsWith('Ensamble externo:')?'<span class="badge w">Asignar ensamblador</span>':'')}${f.ficha?'':'<span class="badge">sin ficha</span>'}${f.obs?`<span class="badge w">${esc(f.obs)}</span>`:''}<b>${f.cant?f.cant+' × ':''}${esc(f.desc)}</b><small>${esc(f.cliente)}</small></div></div><div class="steps">${f.pasos.map(s=>`<i class="${s.e=='ok'?'ok':s.e?'x':''}" title="${esc(s.p)}"></i>`).join('')}</div><div class="pct">${p}% de pasos completos</div></div>`}
 function draw(){let h='',cur='';
  const L=D.filas.filter(f=>(filtro=='Todos'||f.operario==filtro)&&(!txt||(f.cliente+f.orden+f.desc).toLowerCase().includes(txt)));
  for(const f of L){if(f.seccion!=cur){cur=f.seccion;h+=`<h2><span>${esc(cur)}</span><span>${L.filter(x=>x.seccion==cur).length} órdenes</span></h2>`}

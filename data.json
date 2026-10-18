@@ -2,8 +2,7 @@
  "generado": "2026-10-18",
  "filas": [
   {
-   "pos": 1,
-   "seccion": "Programación de la semana",
+   "seccion": "Ensamble externo",
    "operario": "Daniel",
    "cliente": "Touch P.",
    "orden": "6776",
@@ -53,18 +52,18 @@
      "e": ""
     }
    ],
+   "pos": 1,
    "ficha": null
   },
   {
-   "pos": 2,
-   "seccion": "Programación de la semana",
+   "seccion": "Ensamble externo",
    "operario": "Daniel",
    "cliente": "Tienda Nube",
    "orden": "6705",
    "cant": 1.0,
    "desc": "CASE CONVERTIBLE EN MESA HIDRAULICO PARA MIDAS M32 LIVE",
    "obs": "",
-   "nota2": "esperar",
+   "nota2": "",
    "pasos": [
     {
      "p": "Trazo",
@@ -107,17 +106,17 @@
      "e": ""
     }
    ],
+   "pos": 2,
    "ficha": null
   },
   {
-   "pos": 3,
-   "seccion": "Programación de la semana",
+   "seccion": "Ensamble externo",
    "operario": "Daniel",
    "cliente": "Yeison P. R.",
    "orden": "6765",
    "cant": 1.0,
    "desc": "CMC para MA onPC command wing + fader wing",
-   "obs": "MUEBLE",
+   "obs": "MUEB",
    "nota2": "",
    "pasos": [
     {
@@ -161,11 +160,11 @@
      "e": ""
     }
    ],
+   "pos": 3,
    "ficha": null
   },
   {
-   "pos": 4,
-   "seccion": "Programación de la semana",
+   "seccion": "Ensamble externo",
    "operario": "Daniel",
    "cliente": "Giovanni T. H.",
    "orden": "6782",
@@ -215,6 +214,7 @@
      "e": ""
     }
    ],
+   "pos": 4,
    "ficha": {
     "fecha": "OCTUBRE 9 2026",
     "embalaje": "CARTON",
@@ -316,8 +316,7 @@
    }
   },
   {
-   "pos": 5,
-   "seccion": "Programación de la semana",
+   "seccion": "Ensamble externo",
    "operario": "Daniel",
    "cliente": "Event2All",
    "orden": "6783",
@@ -367,6 +366,7 @@
      "e": ""
     }
    ],
+   "pos": 5,
    "ficha": {
     "fecha": "OCTUBRE 9 2026",
     "embalaje": "PLASTICO",
@@ -443,8 +443,7 @@
    }
   },
   {
-   "pos": 6,
-   "seccion": "Programación de la semana",
+   "seccion": "Ensamble externo",
    "operario": "Daniel",
    "cliente": "Yean M. R. G.",
    "orden": "6786",
@@ -494,6 +493,7 @@
      "e": ""
     }
    ],
+   "pos": 6,
    "ficha": {
     "fecha": "OCTUBRE 10 2026",
     "embalaje": "CARTON",
@@ -575,8 +575,7 @@
    }
   },
   {
-   "pos": 7,
-   "seccion": "Programación de la semana",
+   "seccion": "Ensamble externo",
    "operario": "Daniel",
    "cliente": "Milciades D. A.",
    "orden": "6787",
@@ -626,6 +625,7 @@
      "e": ""
     }
    ],
+   "pos": 7,
    "ficha": {
     "fecha": "OCTUBRE 10 2026",
     "embalaje": "CARTON",
@@ -727,8 +727,7 @@
    }
   },
   {
-   "pos": 8,
-   "seccion": "Programación de la semana",
+   "seccion": "Ensamble externo",
    "operario": "Jhan Leon",
    "cliente": "Boris B.",
    "orden": "6780",
@@ -778,6 +777,7 @@
      "e": ""
     }
    ],
+   "pos": 8,
    "ficha": {
     "fecha": "SEPTIEMBRE 29 2026",
     "embalaje": "PLASTICO",
@@ -854,8 +854,7 @@
    }
   },
   {
-   "pos": 9,
-   "seccion": "Programación de la semana",
+   "seccion": "Ensamble externo",
    "operario": "Jhan Leon",
    "cliente": "José G.",
    "orden": "6769",
@@ -905,17 +904,17 @@
      "e": ""
     }
    ],
+   "pos": 9,
    "ficha": null
   },
   {
-   "pos": 10,
-   "seccion": "Programación de la semana",
+   "seccion": "Ensamble externo",
    "operario": "Jhan Leon",
    "cliente": "Boris B.",
    "orden": "6768",
    "cant": 2.0,
    "desc": "BAUL X EQUI 55,4X48,4X70 EXT SIN INCLUIR RUEDAS",
-   "obs": "en stock cortado",
+   "obs": "",
    "nota2": "",
    "pasos": [
     {
@@ -959,6 +958,7 @@
      "e": ""
     }
    ],
+   "pos": 10,
    "ficha": {
     "fecha": "OCTUBRE 10 2026",
     "embalaje": "PLASTICO",
@@ -1035,8 +1035,7 @@
    }
   },
   {
-   "pos": 11,
-   "seccion": "Programación de la semana",
+   "seccion": "Ensamble externo",
    "operario": "Jhan Leon",
    "cliente": "Juan D. H. G.",
    "orden": "6781",
@@ -1086,6 +1085,7 @@
      "e": ""
     }
    ],
+   "pos": 11,
    "ficha": {
     "fecha": "OCTUBRE 9 2026",
     "embalaje": "CARTON",
@@ -1157,8 +1157,7 @@
    }
   },
   {
-   "pos": 12,
-   "seccion": "Programación de la semana",
+   "seccion": "Ensamble externo",
    "operario": "Jhan Leon",
    "cliente": "Edgardo P.",
    "orden": "6779",
@@ -1208,6 +1207,7 @@
      "e": ""
     }
    ],
+   "pos": 12,
    "ficha": {
     "fecha": "OCTUBRE 10 2026",
     "embalaje": "CARTON",
@@ -1283,8 +1283,7 @@
    }
   },
   {
-   "pos": 13,
-   "seccion": "Programación de la semana",
+   "seccion": "Ensamble externo",
    "operario": "Jhan Leon",
    "cliente": "Edgardo P.",
    "orden": "6779",
@@ -1334,6 +1333,7 @@
      "e": ""
     }
    ],
+   "pos": 13,
    "ficha": {
     "fecha": "OCTUBRE 10 2026",
     "embalaje": "CARTON",
@@ -1404,122 +1404,13 @@
    }
   },
   {
-   "pos": 14,
-   "seccion": "Programación de la semana",
+   "seccion": "Abullonado y finalización",
    "operario": "Gabriel",
    "cliente": "José L. B. A.",
    "orden": "6755",
    "cant": 1.0,
    "desc": "Rack Profesional CMC Cases",
    "obs": "",
-   "nota2": "pelex",
-   "pasos": [
-    {
-     "p": "Trazo",
-     "e": "ok"
-    },
-    {
-     "p": "Spire",
-     "e": "ok"
-    },
-    {
-     "p": "Mecanizado",
-     "e": "ok"
-    },
-    {
-     "p": "Vectores",
-     "e": "ok"
-    },
-    {
-     "p": "Ruteado",
-     "e": "ok"
-    },
-    {
-     "p": "Grabar/Estampar",
-     "e": "ok"
-    },
-    {
-     "p": "Corte aluminio",
-     "e": "ok"
-    },
-    {
-     "p": "Alistar accesorios",
-     "e": ""
-    },
-    {
-     "p": "Ensamble",
-     "e": ""
-    },
-    {
-     "p": "Acabado final",
-     "e": ""
-    }
-   ],
-   "ficha": null
-  },
-  {
-   "pos": 15,
-   "seccion": "Programación de la semana",
-   "operario": "Breiner",
-   "cliente": "Audio V. P.",
-   "orden": "6729",
-   "cant": 0.0,
-   "desc": "Case para consola de iluminación + pantalla integrada",
-   "obs": "",
-   "nota2": "carton",
-   "pasos": [
-    {
-     "p": "Trazo",
-     "e": "ok"
-    },
-    {
-     "p": "Spire",
-     "e": "ok"
-    },
-    {
-     "p": "Mecanizado",
-     "e": "ok"
-    },
-    {
-     "p": "Vectores",
-     "e": "ok"
-    },
-    {
-     "p": "Ruteado",
-     "e": "ok"
-    },
-    {
-     "p": "Grabar/Estampar",
-     "e": "ok"
-    },
-    {
-     "p": "Corte aluminio",
-     "e": "ok"
-    },
-    {
-     "p": "Alistar accesorios",
-     "e": "ok"
-    },
-    {
-     "p": "Ensamble",
-     "e": "ok"
-    },
-    {
-     "p": "Acabado final",
-     "e": ""
-    }
-   ],
-   "ficha": null
-  },
-  {
-   "pos": 16,
-   "seccion": "Programación de la semana",
-   "operario": "Breiner",
-   "cliente": "Eugenio L.",
-   "orden": "6762",
-   "cant": 0.0,
-   "desc": "CASE CMC PARA 2 CABEZAS MÓVILES CHAUVET ROGUÉ 3SPOT",
-   "obs": "",
    "nota2": "",
    "pasos": [
     {
@@ -1552,276 +1443,6 @@
     },
     {
      "p": "Alistar accesorios",
-     "e": "ok"
-    },
-    {
-     "p": "Ensamble",
-     "e": "ok"
-    },
-    {
-     "p": "Acabado final",
-     "e": ""
-    }
-   ],
-   "ficha": null
-  },
-  {
-   "pos": 17,
-   "seccion": "Programación de la semana",
-   "operario": "Breiner",
-   "cliente": "Litoprado",
-   "orden": "6770",
-   "cant": 0.0,
-   "desc": "BAÚL TÉCNICO CMC CASES PARA SISTEMA DE ENDOSCOPIA KARL STORZ / WOLF",
-   "obs": "",
-   "nota2": "",
-   "pasos": [
-    {
-     "p": "Trazo",
-     "e": "ok"
-    },
-    {
-     "p": "Spire",
-     "e": "ok"
-    },
-    {
-     "p": "Mecanizado",
-     "e": "ok"
-    },
-    {
-     "p": "Vectores",
-     "e": "ok"
-    },
-    {
-     "p": "Ruteado",
-     "e": "ok"
-    },
-    {
-     "p": "Grabar/Estampar",
-     "e": "ok"
-    },
-    {
-     "p": "Corte aluminio",
-     "e": "ok"
-    },
-    {
-     "p": "Alistar accesorios",
-     "e": "ok"
-    },
-    {
-     "p": "Ensamble",
-     "e": "ok"
-    },
-    {
-     "p": "Acabado final",
-     "e": "ok"
-    }
-   ],
-   "ficha": null
-  },
-  {
-   "pos": 18,
-   "seccion": "Programación de la semana",
-   "operario": "Jcamilo",
-   "cliente": "José J. R. R.",
-   "orden": "6767",
-   "cant": 0.0,
-   "desc": "CASE 6 PAR LW02-6 RGBWA+UV PL PRO LIGHT 18x15W",
-   "obs": "",
-   "nota2": "",
-   "pasos": [
-    {
-     "p": "Trazo",
-     "e": "ok"
-    },
-    {
-     "p": "Spire",
-     "e": "ok"
-    },
-    {
-     "p": "Mecanizado",
-     "e": "ok"
-    },
-    {
-     "p": "Vectores",
-     "e": "ok"
-    },
-    {
-     "p": "Ruteado",
-     "e": "ok"
-    },
-    {
-     "p": "Grabar/Estampar",
-     "e": "ok"
-    },
-    {
-     "p": "Corte aluminio",
-     "e": "ok"
-    },
-    {
-     "p": "Alistar accesorios",
-     "e": "ok"
-    },
-    {
-     "p": "Ensamble",
-     "e": "ok"
-    },
-    {
-     "p": "Acabado final",
-     "e": ""
-    }
-   ],
-   "ficha": null
-  },
-  {
-   "pos": 19,
-   "seccion": "Programación de la semana",
-   "operario": "Jcamilo",
-   "cliente": "Javier G.",
-   "orden": "6760",
-   "cant": 0.0,
-   "desc": "CASE PARA 2 MAQUINAS Spark Fabrica SF-180 Tornado Flamer.",
-   "obs": "",
-   "nota2": "",
-   "pasos": [
-    {
-     "p": "Trazo",
-     "e": "ok"
-    },
-    {
-     "p": "Spire",
-     "e": "ok"
-    },
-    {
-     "p": "Mecanizado",
-     "e": "ok"
-    },
-    {
-     "p": "Vectores",
-     "e": "ok"
-    },
-    {
-     "p": "Ruteado",
-     "e": "ok"
-    },
-    {
-     "p": "Grabar/Estampar",
-     "e": "ok"
-    },
-    {
-     "p": "Corte aluminio",
-     "e": "ok"
-    },
-    {
-     "p": "Alistar accesorios",
-     "e": "ok"
-    },
-    {
-     "p": "Ensamble",
-     "e": "ok"
-    },
-    {
-     "p": "Acabado final",
-     "e": ""
-    }
-   ],
-   "ficha": null
-  },
-  {
-   "pos": 20,
-   "seccion": "Programación de la semana",
-   "operario": "Jcamilo",
-   "cliente": "VIP",
-   "orden": "6773",
-   "cant": 0.0,
-   "desc": "CASE PARA 18 BARRAS: 1 CON PL183 WASHER Y OTRO CON PL32SW LEDKING. 3 NIVELES INTERNOS DE 6 BARRAS CADA UNO",
-   "obs": "",
-   "nota2": "",
-   "pasos": [
-    {
-     "p": "Trazo",
-     "e": "ok"
-    },
-    {
-     "p": "Spire",
-     "e": "ok"
-    },
-    {
-     "p": "Mecanizado",
-     "e": "ok"
-    },
-    {
-     "p": "Vectores",
-     "e": "ok"
-    },
-    {
-     "p": "Ruteado",
-     "e": "ok"
-    },
-    {
-     "p": "Grabar/Estampar",
-     "e": "ok"
-    },
-    {
-     "p": "Corte aluminio",
-     "e": "ok"
-    },
-    {
-     "p": "Alistar accesorios",
-     "e": "ok"
-    },
-    {
-     "p": "Ensamble",
-     "e": "ok"
-    },
-    {
-     "p": "Acabado final",
-     "e": ""
-    }
-   ],
-   "ficha": null
-  },
-  {
-   "pos": 21,
-   "seccion": "Pausadas",
-   "operario": "",
-   "cliente": "Adonay O.",
-   "orden": "6167",
-   "cant": 1.0,
-   "desc": "AJUSTE DE PARALES 4,5",
-   "obs": "",
-   "nota2": "pelex",
-   "pasos": [
-    {
-     "p": "Trazo",
-     "e": ""
-    },
-    {
-     "p": "Spire",
-     "e": ""
-    },
-    {
-     "p": "Mecanizado",
-     "e": ""
-    },
-    {
-     "p": "Vectores",
-     "e": ""
-    },
-    {
-     "p": "Ruteado",
-     "e": ""
-    },
-    {
-     "p": "Grabar/Estampar",
-     "e": ""
-    },
-    {
-     "p": "Corte aluminio",
-     "e": ""
-    },
-    {
-     "p": "Alistar accesorios",
      "e": ""
     },
     {
@@ -1833,390 +1454,12 @@
      "e": ""
     }
    ],
+   "pos": 14,
    "ficha": null
   },
   {
-   "pos": 22,
-   "seccion": "Pausadas",
-   "operario": "",
-   "cliente": "Bahia",
-   "orden": "6492",
-   "cant": 1.0,
-   "desc": "PUNTO FIJO CONSOLA",
-   "obs": "",
-   "nota2": "pelex",
-   "pasos": [
-    {
-     "p": "Trazo",
-     "e": ""
-    },
-    {
-     "p": "Spire",
-     "e": ""
-    },
-    {
-     "p": "Mecanizado",
-     "e": ""
-    },
-    {
-     "p": "Vectores",
-     "e": ""
-    },
-    {
-     "p": "Ruteado",
-     "e": ""
-    },
-    {
-     "p": "Grabar/Estampar",
-     "e": ""
-    },
-    {
-     "p": "Corte aluminio",
-     "e": ""
-    },
-    {
-     "p": "Alistar accesorios",
-     "e": ""
-    },
-    {
-     "p": "Ensamble",
-     "e": ""
-    },
-    {
-     "p": "Acabado final",
-     "e": ""
-    }
-   ],
-   "ficha": null
-  },
-  {
-   "pos": 23,
-   "seccion": "Pausadas",
-   "operario": "",
-   "cliente": "Bahia",
-   "orden": "6492",
-   "cant": 1.0,
-   "desc": "PUNTO FIJO CONSOLA",
-   "obs": "",
-   "nota2": "pelex",
-   "pasos": [
-    {
-     "p": "Trazo",
-     "e": ""
-    },
-    {
-     "p": "Spire",
-     "e": ""
-    },
-    {
-     "p": "Mecanizado",
-     "e": ""
-    },
-    {
-     "p": "Vectores",
-     "e": ""
-    },
-    {
-     "p": "Ruteado",
-     "e": ""
-    },
-    {
-     "p": "Grabar/Estampar",
-     "e": ""
-    },
-    {
-     "p": "Corte aluminio",
-     "e": ""
-    },
-    {
-     "p": "Alistar accesorios",
-     "e": ""
-    },
-    {
-     "p": "Ensamble",
-     "e": ""
-    },
-    {
-     "p": "Acabado final",
-     "e": ""
-    }
-   ],
-   "ficha": null
-  },
-  {
-   "pos": 24,
-   "seccion": "Pausadas",
-   "operario": "",
-   "cliente": "Stock",
-   "orden": "6606",
-   "cant": 6.0,
-   "desc": "CASE PARA 24 MICROFONOS (REVISAR H5)",
-   "obs": "en stock cortado",
-   "nota2": "esperar que se asignen",
-   "pasos": [
-    {
-     "p": "Trazo",
-     "e": "ok"
-    },
-    {
-     "p": "Spire",
-     "e": "ok"
-    },
-    {
-     "p": "Mecanizado",
-     "e": "ok"
-    },
-    {
-     "p": "Vectores",
-     "e": "ok"
-    },
-    {
-     "p": "Ruteado",
-     "e": "ok"
-    },
-    {
-     "p": "Grabar/Estampar",
-     "e": "PDT"
-    },
-    {
-     "p": "Corte aluminio",
-     "e": "PDT"
-    },
-    {
-     "p": "Alistar accesorios",
-     "e": "ok"
-    },
-    {
-     "p": "Ensamble",
-     "e": ""
-    },
-    {
-     "p": "Acabado final",
-     "e": ""
-    }
-   ],
-   "ficha": null
-  },
-  {
-   "pos": 25,
-   "seccion": "Pausadas",
-   "operario": "",
-   "cliente": "Stock",
-   "orden": "6652",
-   "cant": 1.0,
-   "desc": "RACK 2U22",
-   "obs": "en stock cortado",
-   "nota2": "esperar que se asignen",
-   "pasos": [
-    {
-     "p": "Trazo",
-     "e": "ok"
-    },
-    {
-     "p": "Spire",
-     "e": "ok"
-    },
-    {
-     "p": "Mecanizado",
-     "e": "ok"
-    },
-    {
-     "p": "Vectores",
-     "e": "ok"
-    },
-    {
-     "p": "Ruteado",
-     "e": "ok"
-    },
-    {
-     "p": "Grabar/Estampar",
-     "e": "PDT"
-    },
-    {
-     "p": "Corte aluminio",
-     "e": "PDT"
-    },
-    {
-     "p": "Alistar accesorios",
-     "e": "ok"
-    },
-    {
-     "p": "Ensamble",
-     "e": ""
-    },
-    {
-     "p": "Acabado final",
-     "e": ""
-    }
-   ],
-   "ficha": null
-  },
-  {
-   "pos": 26,
-   "seccion": "Pausadas",
-   "operario": "",
-   "cliente": "Stock",
-   "orden": "6738",
-   "cant": 1.0,
-   "desc": "RACK 3U18",
-   "obs": "en stock cortado",
-   "nota2": "",
-   "pasos": [
-    {
-     "p": "Trazo",
-     "e": "ok"
-    },
-    {
-     "p": "Spire",
-     "e": "ok"
-    },
-    {
-     "p": "Mecanizado",
-     "e": "ok"
-    },
-    {
-     "p": "Vectores",
-     "e": "ok"
-    },
-    {
-     "p": "Ruteado",
-     "e": "ok"
-    },
-    {
-     "p": "Grabar/Estampar",
-     "e": ""
-    },
-    {
-     "p": "Corte aluminio",
-     "e": ""
-    },
-    {
-     "p": "Alistar accesorios",
-     "e": ""
-    },
-    {
-     "p": "Ensamble",
-     "e": ""
-    },
-    {
-     "p": "Acabado final",
-     "e": ""
-    }
-   ],
-   "ficha": null
-  },
-  {
-   "pos": 27,
-   "seccion": "Pausadas",
-   "operario": "",
-   "cliente": "Stock",
-   "orden": "6759",
-   "cant": 1.0,
-   "desc": "RACK 12U22",
-   "obs": "en stock cortado",
-   "nota2": "",
-   "pasos": [
-    {
-     "p": "Trazo",
-     "e": "ok"
-    },
-    {
-     "p": "Spire",
-     "e": "ok"
-    },
-    {
-     "p": "Mecanizado",
-     "e": "ok"
-    },
-    {
-     "p": "Vectores",
-     "e": "ok"
-    },
-    {
-     "p": "Ruteado",
-     "e": "ok"
-    },
-    {
-     "p": "Grabar/Estampar",
-     "e": ""
-    },
-    {
-     "p": "Corte aluminio",
-     "e": ""
-    },
-    {
-     "p": "Alistar accesorios",
-     "e": ""
-    },
-    {
-     "p": "Ensamble",
-     "e": ""
-    },
-    {
-     "p": "Acabado final",
-     "e": ""
-    }
-   ],
-   "ficha": null
-  },
-  {
-   "pos": 28,
-   "seccion": "Pausadas",
-   "operario": "",
-   "cliente": "Stock",
-   "orden": "6759",
-   "cant": null,
-   "desc": "RACK 6U18",
-   "obs": "en stock cortado",
-   "nota2": "",
-   "pasos": [
-    {
-     "p": "Trazo",
-     "e": "ok"
-    },
-    {
-     "p": "Spire",
-     "e": "ok"
-    },
-    {
-     "p": "Mecanizado",
-     "e": "ok"
-    },
-    {
-     "p": "Vectores",
-     "e": "ok"
-    },
-    {
-     "p": "Ruteado",
-     "e": "ok"
-    },
-    {
-     "p": "Grabar/Estampar",
-     "e": ""
-    },
-    {
-     "p": "Corte aluminio",
-     "e": ""
-    },
-    {
-     "p": "Alistar accesorios",
-     "e": ""
-    },
-    {
-     "p": "Ensamble",
-     "e": ""
-    },
-    {
-     "p": "Acabado final",
-     "e": ""
-    }
-   ],
-   "ficha": null
-  },
-  {
-   "pos": 29,
-   "seccion": "Semanas previas",
-   "operario": "",
+   "seccion": "Abullonado y finalización",
+   "operario": "Gabriel",
    "cliente": "Enrique A.",
    "orden": "6771",
    "cant": 1.0,
@@ -2265,6 +1508,7 @@
      "e": ""
     }
    ],
+   "pos": 15,
    "ficha": {
     "fecha": "OCTUBRE 2 2026",
     "embalaje": null,
@@ -2331,9 +1575,1950 @@
    }
   },
   {
+   "seccion": "Abullonado y finalización",
+   "operario": "Gabriel",
+   "cliente": "Juan D. H. G.",
+   "orden": "6781",
+   "cant": 1.0,
+   "desc": "RACK 12U18 CON RUEDAS",
+   "obs": "",
+   "nota2": "",
+   "pasos": [
+    {
+     "p": "Trazo",
+     "e": "ok"
+    },
+    {
+     "p": "Spire",
+     "e": "ok"
+    },
+    {
+     "p": "Mecanizado",
+     "e": "ok"
+    },
+    {
+     "p": "Vectores",
+     "e": "ok"
+    },
+    {
+     "p": "Ruteado",
+     "e": "ok"
+    },
+    {
+     "p": "Grabar/Estampar",
+     "e": "ok"
+    },
+    {
+     "p": "Corte aluminio",
+     "e": "ok"
+    },
+    {
+     "p": "Alistar accesorios",
+     "e": "ok"
+    },
+    {
+     "p": "Ensamble",
+     "e": ""
+    },
+    {
+     "p": "Acabado final",
+     "e": ""
+    }
+   ],
+   "pos": 16,
+   "ficha": {
+    "fecha": "OCTUBRE 9 2026",
+    "embalaje": "CARTON",
+    "archivo": "OP W41",
+    "item": {
+     "titulo": "RACK 12U18 CON RUEDAS",
+     "cant_t": "1",
+     "mats": [
+      {
+       "m": "Armado",
+       "cant": null,
+       "d": "TRIPLEX 12 MM"
+      },
+      {
+       "m": "Acabado",
+       "cant": null,
+       "d": "FORMICA NM"
+      },
+      {
+       "m": "Hibrido",
+       "cant": null,
+       "d": "CMC"
+      },
+      {
+       "m": "Angulo",
+       "cant": null,
+       "d": "CMC"
+      },
+      {
+       "m": "Cierres",
+       "cant": 4,
+       "d": "LC-S11 MED"
+      },
+      {
+       "m": "Manijas",
+       "cant": 2,
+       "d": "INCRUSTAR LATERAL MTE"
+      },
+      {
+       "m": "Esquineras",
+       "cant": 8,
+       "d": "LC-QB09 PE"
+      },
+      {
+       "m": "Abrazaderas",
+       "cant": 16,
+       "d": "LC-ZJM08 MED"
+      },
+      {
+       "m": "Bases",
+       "cant": 4,
+       "d": "RUEDAS CON FRENO 4\""
+      },
+      {
+       "m": "Otros",
+       "cant": null,
+       "d": "ANGULO RACK D/T"
+      }
+     ],
+     "notas": [],
+     "medidas": []
+    },
+    "lineas": [
+     {
+      "cant": 1,
+      "desc": "RACK 12U18 CON RUEDAS"
+     }
+    ]
+   }
+  },
+  {
+   "seccion": "Abullonado y finalización",
+   "operario": "Breiner",
+   "cliente": "Audio V. P.",
+   "orden": "6729",
+   "cant": 0.0,
+   "desc": "Case para consola de iluminación + pantalla integrada",
+   "obs": "",
+   "nota2": "",
+   "pasos": [
+    {
+     "p": "Trazo",
+     "e": "ok"
+    },
+    {
+     "p": "Spire",
+     "e": "ok"
+    },
+    {
+     "p": "Mecanizado",
+     "e": "ok"
+    },
+    {
+     "p": "Vectores",
+     "e": "ok"
+    },
+    {
+     "p": "Ruteado",
+     "e": "ok"
+    },
+    {
+     "p": "Grabar/Estampar",
+     "e": "ok"
+    },
+    {
+     "p": "Corte aluminio",
+     "e": "ok"
+    },
+    {
+     "p": "Alistar accesorios",
+     "e": "ok"
+    },
+    {
+     "p": "Ensamble",
+     "e": "ok"
+    },
+    {
+     "p": "Acabado final",
+     "e": ""
+    }
+   ],
+   "pos": 17,
+   "ficha": null
+  },
+  {
+   "seccion": "Abullonado y finalización",
+   "operario": "Breiner",
+   "cliente": "Eugenio L.",
+   "orden": "6762",
+   "cant": 0.0,
+   "desc": "CASE CMC PARA 2 CABEZAS MÓVILES CHAUVET ROGUÉ 3SPOT",
+   "obs": "",
+   "nota2": "",
+   "pasos": [
+    {
+     "p": "Trazo",
+     "e": "ok"
+    },
+    {
+     "p": "Spire",
+     "e": "ok"
+    },
+    {
+     "p": "Mecanizado",
+     "e": "ok"
+    },
+    {
+     "p": "Vectores",
+     "e": "ok"
+    },
+    {
+     "p": "Ruteado",
+     "e": "ok"
+    },
+    {
+     "p": "Grabar/Estampar",
+     "e": "ok"
+    },
+    {
+     "p": "Corte aluminio",
+     "e": "ok"
+    },
+    {
+     "p": "Alistar accesorios",
+     "e": "ok"
+    },
+    {
+     "p": "Ensamble",
+     "e": "ok"
+    },
+    {
+     "p": "Acabado final",
+     "e": ""
+    }
+   ],
+   "pos": 18,
+   "ficha": null
+  },
+  {
+   "seccion": "Abullonado y finalización",
+   "operario": "Breiner",
+   "cliente": "Litoprado",
+   "orden": "6770",
+   "cant": 0.0,
+   "desc": "BAÚL TÉCNICO CMC CASES PARA SISTEMA DE ENDOSCOPIA KARL STORZ / WOLF",
+   "obs": "",
+   "nota2": "",
+   "pasos": [
+    {
+     "p": "Trazo",
+     "e": "ok"
+    },
+    {
+     "p": "Spire",
+     "e": "ok"
+    },
+    {
+     "p": "Mecanizado",
+     "e": "ok"
+    },
+    {
+     "p": "Vectores",
+     "e": "ok"
+    },
+    {
+     "p": "Ruteado",
+     "e": "ok"
+    },
+    {
+     "p": "Grabar/Estampar",
+     "e": "ok"
+    },
+    {
+     "p": "Corte aluminio",
+     "e": "ok"
+    },
+    {
+     "p": "Alistar accesorios",
+     "e": "ok"
+    },
+    {
+     "p": "Ensamble",
+     "e": "ok"
+    },
+    {
+     "p": "Acabado final",
+     "e": "ok"
+    }
+   ],
+   "pos": 19,
+   "ficha": null
+  },
+  {
+   "seccion": "Abullonado y finalización",
+   "operario": "Breiner",
+   "cliente": "Touch P.",
+   "orden": "6776",
+   "cant": 1.0,
+   "desc": "CASE MESA CMC PARA MIDAS M32R CON GATOS Y ACC PENN",
+   "obs": "",
+   "nota2": "",
+   "pasos": [
+    {
+     "p": "Trazo",
+     "e": "ok"
+    },
+    {
+     "p": "Spire",
+     "e": "ok"
+    },
+    {
+     "p": "Mecanizado",
+     "e": "ok"
+    },
+    {
+     "p": "Vectores",
+     "e": "ok"
+    },
+    {
+     "p": "Ruteado",
+     "e": "ok"
+    },
+    {
+     "p": "Grabar/Estampar",
+     "e": "ok"
+    },
+    {
+     "p": "Corte aluminio",
+     "e": "ok"
+    },
+    {
+     "p": "Alistar accesorios",
+     "e": "ok"
+    },
+    {
+     "p": "Ensamble",
+     "e": "ok"
+    },
+    {
+     "p": "Acabado final",
+     "e": ""
+    }
+   ],
+   "pos": 20,
+   "ficha": null
+  },
+  {
+   "seccion": "Abullonado y finalización",
+   "operario": "Breiner",
+   "cliente": "Tienda Nube",
+   "orden": "6705",
+   "cant": 1.0,
+   "desc": "CASE CONVERTIBLE EN MESA HIDRAULICO PARA MIDAS M32 LIVE",
+   "obs": "",
+   "nota2": "",
+   "pasos": [
+    {
+     "p": "Trazo",
+     "e": "ok"
+    },
+    {
+     "p": "Spire",
+     "e": "ok"
+    },
+    {
+     "p": "Mecanizado",
+     "e": "ok"
+    },
+    {
+     "p": "Vectores",
+     "e": "ok"
+    },
+    {
+     "p": "Ruteado",
+     "e": "ok"
+    },
+    {
+     "p": "Grabar/Estampar",
+     "e": "ok"
+    },
+    {
+     "p": "Corte aluminio",
+     "e": "ok"
+    },
+    {
+     "p": "Alistar accesorios",
+     "e": ""
+    },
+    {
+     "p": "Ensamble",
+     "e": ""
+    },
+    {
+     "p": "Acabado final",
+     "e": ""
+    }
+   ],
+   "pos": 21,
+   "ficha": null
+  },
+  {
+   "seccion": "Abullonado y finalización",
+   "operario": "Breiner",
+   "cliente": "Yeison P. R.",
+   "orden": "6765",
+   "cant": 1.0,
+   "desc": "CMC para MA onPC command wing + fader wing",
+   "obs": "MUEBLE",
+   "nota2": "",
+   "pasos": [
+    {
+     "p": "Trazo",
+     "e": "ok"
+    },
+    {
+     "p": "Spire",
+     "e": "ok"
+    },
+    {
+     "p": "Mecanizado",
+     "e": "ok"
+    },
+    {
+     "p": "Vectores",
+     "e": "ok"
+    },
+    {
+     "p": "Ruteado",
+     "e": "ok"
+    },
+    {
+     "p": "Grabar/Estampar",
+     "e": "ok"
+    },
+    {
+     "p": "Corte aluminio",
+     "e": "ok"
+    },
+    {
+     "p": "Alistar accesorios",
+     "e": "ok"
+    },
+    {
+     "p": "Ensamble",
+     "e": ""
+    },
+    {
+     "p": "Acabado final",
+     "e": ""
+    }
+   ],
+   "pos": 22,
+   "ficha": null
+  },
+  {
+   "seccion": "Abullonado y finalización",
+   "operario": "Breiner",
+   "cliente": "Giovanni T. H.",
+   "orden": "6782",
+   "cant": 1.0,
+   "desc": "CASE MESA WING COMPACT + ELEV. HIDRAULICA",
+   "obs": "",
+   "nota2": "",
+   "pasos": [
+    {
+     "p": "Trazo",
+     "e": "ok"
+    },
+    {
+     "p": "Spire",
+     "e": "ok"
+    },
+    {
+     "p": "Mecanizado",
+     "e": "ok"
+    },
+    {
+     "p": "Vectores",
+     "e": "ok"
+    },
+    {
+     "p": "Ruteado",
+     "e": "ok"
+    },
+    {
+     "p": "Grabar/Estampar",
+     "e": "ok"
+    },
+    {
+     "p": "Corte aluminio",
+     "e": "ok"
+    },
+    {
+     "p": "Alistar accesorios",
+     "e": "ok"
+    },
+    {
+     "p": "Ensamble",
+     "e": ""
+    },
+    {
+     "p": "Acabado final",
+     "e": ""
+    }
+   ],
+   "pos": 23,
+   "ficha": {
+    "fecha": "OCTUBRE 9 2026",
+    "embalaje": "CARTON",
+    "archivo": "OP W41",
+    "item": {
+     "titulo": "CASE MESA WING COMPACT + ELEV. HIDRAULICA",
+     "cant_t": "1",
+     "mats": [
+      {
+       "m": "Armado",
+       "cant": null,
+       "d": "TRIPLEX 12 MM"
+      },
+      {
+       "m": "Acabado",
+       "cant": null,
+       "d": "FORMICA NM"
+      },
+      {
+       "m": "Hibrido",
+       "cant": null,
+       "d": "CMC"
+      },
+      {
+       "m": "Angulo",
+       "cant": null,
+       "d": "CMC"
+      },
+      {
+       "m": "Cierres",
+       "cant": 5,
+       "d": "LC-S11 MED"
+      },
+      {
+       "m": "Manijas",
+       "cant": 2,
+       "d": "INCRUSTAR CH LC-LS06"
+      },
+      {
+       "m": "Abullonado",
+       "cant": null,
+       "d": "EVA+YUMBOLON"
+      },
+      {
+       "m": "Esquineras",
+       "cant": 8,
+       "d": "LC-QB09"
+      },
+      {
+       "m": "Abrazaderas",
+       "cant": 8,
+       "d": "LC-ZJM08"
+      },
+      {
+       "m": "Bases",
+       "cant": 4,
+       "d": "RUEDAS GCF3"
+      },
+      {
+       "m": "Soporte",
+       "cant": 2,
+       "d": "CIERRES SOBREPONER"
+      },
+      {
+       "m": "Bisgras",
+       "cant": 2,
+       "d": "BISAGRAS LC-BC07"
+      },
+      {
+       "m": "Otros",
+       "cant": null,
+       "d": "BISAGRA PIANO"
+      },
+      {
+       "m": "Otros",
+       "cant": null,
+       "d": "ANGULO MEDIA"
+      },
+      {
+       "m": "Otros",
+       "cant": null,
+       "d": "PINTURA MUEBLE"
+      },
+      {
+       "m": "Otros",
+       "cant": null,
+       "d": "MADERA MUEBLE"
+      }
+     ],
+     "notas": [],
+     "medidas": []
+    },
+    "lineas": [
+     {
+      "cant": 1,
+      "desc": "CASE MESA WING COMPACT + ELEV. HIDRAULICA"
+     }
+    ]
+   }
+  },
+  {
+   "seccion": "Abullonado y finalización",
+   "operario": "Breiner",
+   "cliente": "Yean M. R. G.",
+   "orden": "6786",
+   "cant": 1.0,
+   "desc": "CASE SLIM MIDAS M32R ESTÁNDAR CON DOGHOUSE",
+   "obs": "",
+   "nota2": "",
+   "pasos": [
+    {
+     "p": "Trazo",
+     "e": "ok"
+    },
+    {
+     "p": "Spire",
+     "e": "ok"
+    },
+    {
+     "p": "Mecanizado",
+     "e": "ok"
+    },
+    {
+     "p": "Vectores",
+     "e": "ok"
+    },
+    {
+     "p": "Ruteado",
+     "e": "ok"
+    },
+    {
+     "p": "Grabar/Estampar",
+     "e": "ok"
+    },
+    {
+     "p": "Corte aluminio",
+     "e": "ok"
+    },
+    {
+     "p": "Alistar accesorios",
+     "e": "ok"
+    },
+    {
+     "p": "Ensamble",
+     "e": ""
+    },
+    {
+     "p": "Acabado final",
+     "e": ""
+    }
+   ],
+   "pos": 24,
+   "ficha": {
+    "fecha": "OCTUBRE 10 2026",
+    "embalaje": "CARTON",
+    "archivo": "OP W41",
+    "item": {
+     "titulo": "CASE MIDAS M32R ESTÁNDAR CON DOGHOUSE SIN RUEDAS",
+     "cant_t": "1",
+     "mats": [
+      {
+       "m": "Armado",
+       "cant": null,
+       "d": "TRIPLEX 12 MM"
+      },
+      {
+       "m": "Acabado",
+       "cant": null,
+       "d": "FORMICA NM"
+      },
+      {
+       "m": "Hibrido",
+       "cant": null,
+       "d": "CMC"
+      },
+      {
+       "m": "Angulo",
+       "cant": null,
+       "d": "CMC"
+      },
+      {
+       "m": "Cierres",
+       "cant": 4,
+       "d": "LC-S11 MED"
+      },
+      {
+       "m": "Manijas",
+       "cant": 4,
+       "d": "LC-LS06 INCRUSTAR"
+      },
+      {
+       "m": "Esquineras",
+       "cant": 8,
+       "d": "LC-QB09 PE"
+      },
+      {
+       "m": "Abrazaderas",
+       "cant": 8,
+       "d": "LC-ZJM08 MED"
+      },
+      {
+       "m": "Bases",
+       "cant": 4,
+       "d": "CAUCHOS"
+      },
+      {
+       "m": "Otros",
+       "cant": null,
+       "d": "MUEBLE"
+      },
+      {
+       "m": "Otros",
+       "cant": 2,
+       "d": "CIERRES DE SOBREPONER"
+      },
+      {
+       "m": "Otros",
+       "cant": null,
+       "d": "BISAGRA DE PIANO"
+      }
+     ],
+     "notas": [],
+     "medidas": []
+    },
+    "lineas": [
+     {
+      "cant": 1,
+      "desc": "CASE MIDAS M32R ESTÁNDAR CON DOGHOUSE SIN RUEDAS"
+     }
+    ]
+   }
+  },
+  {
+   "seccion": "Abullonado y finalización",
+   "operario": "Breiner",
+   "cliente": "Milciades D. A.",
+   "orden": "6787",
+   "cant": 1.0,
+   "desc": "CASE MESA WING COMPACT + ELEV. HIDRAULICA",
+   "obs": "",
+   "nota2": "",
+   "pasos": [
+    {
+     "p": "Trazo",
+     "e": "ok"
+    },
+    {
+     "p": "Spire",
+     "e": "ok"
+    },
+    {
+     "p": "Mecanizado",
+     "e": "ok"
+    },
+    {
+     "p": "Vectores",
+     "e": "ok"
+    },
+    {
+     "p": "Ruteado",
+     "e": "ok"
+    },
+    {
+     "p": "Grabar/Estampar",
+     "e": "ok"
+    },
+    {
+     "p": "Corte aluminio",
+     "e": "ok"
+    },
+    {
+     "p": "Alistar accesorios",
+     "e": "ok"
+    },
+    {
+     "p": "Ensamble",
+     "e": ""
+    },
+    {
+     "p": "Acabado final",
+     "e": ""
+    }
+   ],
+   "pos": 25,
+   "ficha": {
+    "fecha": "OCTUBRE 10 2026",
+    "embalaje": "CARTON",
+    "archivo": "OP W41",
+    "item": {
+     "titulo": "CASE MESA WING COMPACT + ELEV. HIDRAULICA",
+     "cant_t": "1",
+     "mats": [
+      {
+       "m": "Armado",
+       "cant": null,
+       "d": "TRIPLEX 12 MM"
+      },
+      {
+       "m": "Acabado",
+       "cant": null,
+       "d": "FORMICA NM"
+      },
+      {
+       "m": "Hibrido",
+       "cant": null,
+       "d": "CMC"
+      },
+      {
+       "m": "Angulo",
+       "cant": null,
+       "d": "CMC"
+      },
+      {
+       "m": "Cierres",
+       "cant": 5,
+       "d": "LC-S11 MED"
+      },
+      {
+       "m": "Manijas",
+       "cant": 2,
+       "d": "INCRUSTAR CH LC-LS06"
+      },
+      {
+       "m": "Abullonado",
+       "cant": null,
+       "d": "EVA+YUMBOLON"
+      },
+      {
+       "m": "Esquineras",
+       "cant": 8,
+       "d": "LC-QB09"
+      },
+      {
+       "m": "Abrazaderas",
+       "cant": 8,
+       "d": "LC-ZJM08"
+      },
+      {
+       "m": "Bases",
+       "cant": 4,
+       "d": "RUEDAS GCF3"
+      },
+      {
+       "m": "Soporte",
+       "cant": 2,
+       "d": "CIERRES SOBREPONER"
+      },
+      {
+       "m": "Bisagras",
+       "cant": 2,
+       "d": "BISAGRAS LC-BC07"
+      },
+      {
+       "m": "Otros",
+       "cant": null,
+       "d": "BISAGRA PIANO"
+      },
+      {
+       "m": "Otros",
+       "cant": null,
+       "d": "ANGULO MEDIA"
+      },
+      {
+       "m": "Otros",
+       "cant": null,
+       "d": "PINTURA MUEBLE"
+      },
+      {
+       "m": "Otros",
+       "cant": null,
+       "d": "MADERA MUEBLE"
+      }
+     ],
+     "notas": [],
+     "medidas": []
+    },
+    "lineas": [
+     {
+      "cant": 1,
+      "desc": "CASE MESA WING COMPACT + ELEV. HIDRAULICA"
+     }
+    ]
+   }
+  },
+  {
+   "seccion": "Abullonado y finalización",
+   "operario": "Edwin",
+   "cliente": "Boris B.",
+   "orden": "6780",
+   "cant": 1.0,
+   "desc": "ORGANIZADOR 100X60X60",
+   "obs": "",
+   "nota2": "",
+   "pasos": [
+    {
+     "p": "Trazo",
+     "e": "ok"
+    },
+    {
+     "p": "Spire",
+     "e": "ok"
+    },
+    {
+     "p": "Mecanizado",
+     "e": "ok"
+    },
+    {
+     "p": "Vectores",
+     "e": "ok"
+    },
+    {
+     "p": "Ruteado",
+     "e": "ok"
+    },
+    {
+     "p": "Grabar/Estampar",
+     "e": "ok"
+    },
+    {
+     "p": "Corte aluminio",
+     "e": "ok"
+    },
+    {
+     "p": "Alistar accesorios",
+     "e": "ok"
+    },
+    {
+     "p": "Ensamble",
+     "e": ""
+    },
+    {
+     "p": "Acabado final",
+     "e": ""
+    }
+   ],
+   "pos": 26,
+   "ficha": {
+    "fecha": "SEPTIEMBRE 29 2026",
+    "embalaje": "PLASTICO",
+    "archivo": "OP W41",
+    "item": {
+     "titulo": "ORGANIZADOR 100X60X60",
+     "cant_t": "1",
+     "mats": [
+      {
+       "m": "Armado",
+       "cant": null,
+       "d": "TRIPLEX 12 MM"
+      },
+      {
+       "m": "Acabado",
+       "cant": null,
+       "d": "FORMICA NM"
+      },
+      {
+       "m": "Hibrido",
+       "cant": null,
+       "d": "CMC"
+      },
+      {
+       "m": "Angulo",
+       "cant": null,
+       "d": "CMC"
+      },
+      {
+       "m": "Cierres",
+       "cant": 2,
+       "d": "LC-S11 MED"
+      },
+      {
+       "m": "Manijas",
+       "cant": 4,
+       "d": "LC-LS06 INCRUSTAR"
+      },
+      {
+       "m": "Esquineras",
+       "cant": 8,
+       "d": "LC-QB09 PE"
+      },
+      {
+       "m": "Abrazaderas",
+       "cant": 8,
+       "d": "LC-ZJM08 MED"
+      },
+      {
+       "m": "Bases",
+       "cant": 4,
+       "d": "RUEDAS GCF4"
+      },
+      {
+       "m": "Soporte",
+       "cant": 4,
+       "d": "LC-LW05 PORTARUEDAS"
+      },
+      {
+       "m": "Bisgras",
+       "cant": 2,
+       "d": "LC-BC07"
+      }
+     ],
+     "notas": [],
+     "medidas": []
+    },
+    "lineas": [
+     {
+      "cant": 1,
+      "desc": "ORGANIZADOR 100X60X60"
+     }
+    ]
+   }
+  },
+  {
+   "seccion": "Abullonado y finalización",
+   "operario": "Edwin",
+   "cliente": "José G.",
+   "orden": "6769",
+   "cant": 1.0,
+   "desc": "Case CMC tarima de 107 × 70 × 24 cm",
+   "obs": "",
+   "nota2": "",
+   "pasos": [
+    {
+     "p": "Trazo",
+     "e": "ok"
+    },
+    {
+     "p": "Spire",
+     "e": "ok"
+    },
+    {
+     "p": "Mecanizado",
+     "e": "ok"
+    },
+    {
+     "p": "Vectores",
+     "e": "ok"
+    },
+    {
+     "p": "Ruteado",
+     "e": "ok"
+    },
+    {
+     "p": "Grabar/Estampar",
+     "e": "ok"
+    },
+    {
+     "p": "Corte aluminio",
+     "e": "ok"
+    },
+    {
+     "p": "Alistar accesorios",
+     "e": "ok"
+    },
+    {
+     "p": "Ensamble",
+     "e": ""
+    },
+    {
+     "p": "Acabado final",
+     "e": ""
+    }
+   ],
+   "pos": 27,
+   "ficha": null
+  },
+  {
+   "seccion": "Abullonado y finalización",
+   "operario": "Edwin",
+   "cliente": "Boris B.",
+   "orden": "6768",
+   "cant": 2.0,
+   "desc": "BAUL X EQUI 55,4X48,4X70 EXT SIN INCLUIR RUEDAS",
+   "obs": "",
+   "nota2": "",
+   "pasos": [
+    {
+     "p": "Trazo",
+     "e": "ok"
+    },
+    {
+     "p": "Spire",
+     "e": "ok"
+    },
+    {
+     "p": "Mecanizado",
+     "e": "ok"
+    },
+    {
+     "p": "Vectores",
+     "e": "ok"
+    },
+    {
+     "p": "Ruteado",
+     "e": "ok"
+    },
+    {
+     "p": "Grabar/Estampar",
+     "e": "ok"
+    },
+    {
+     "p": "Corte aluminio",
+     "e": "ok"
+    },
+    {
+     "p": "Alistar accesorios",
+     "e": "ok"
+    },
+    {
+     "p": "Ensamble",
+     "e": ""
+    },
+    {
+     "p": "Acabado final",
+     "e": ""
+    }
+   ],
+   "pos": 28,
+   "ficha": {
+    "fecha": "OCTUBRE 10 2026",
+    "embalaje": "PLASTICO",
+    "archivo": "OP W41",
+    "item": {
+     "titulo": "BAUL X EQUI 55,4X48,4X70 EXT SIN INCLUIR RUEDAS",
+     "cant_t": "2",
+     "mats": [
+      {
+       "m": "Armado",
+       "cant": null,
+       "d": "TRIPLEX 12 MM"
+      },
+      {
+       "m": "Acabado",
+       "cant": null,
+       "d": "FORMICA NM"
+      },
+      {
+       "m": "Hibrido",
+       "cant": null,
+       "d": "CMC"
+      },
+      {
+       "m": "Angulo",
+       "cant": null,
+       "d": "CMC"
+      },
+      {
+       "m": "Cierres",
+       "cant": 1,
+       "d": "LC-S11 MED"
+      },
+      {
+       "m": "Manijas",
+       "cant": 2,
+       "d": "LC-LS06 INCRUSTAR"
+      },
+      {
+       "m": "Esquineras",
+       "cant": 8,
+       "d": "LC-QB09 PE"
+      },
+      {
+       "m": "Abrazaderas",
+       "cant": 8,
+       "d": "LC-ZJM08 MED"
+      },
+      {
+       "m": "Bases",
+       "cant": 4,
+       "d": "RUEDAS GCF3"
+      },
+      {
+       "m": "Soporte",
+       "cant": 4,
+       "d": "LC-LW05 PORTARUEDAS"
+      },
+      {
+       "m": "Bisgras",
+       "cant": 2,
+       "d": "LC-BC07"
+      }
+     ],
+     "notas": [],
+     "medidas": []
+    },
+    "lineas": [
+     {
+      "cant": 2,
+      "desc": "BAUL X EQUI 55,4X48,4X70 EXT SIN INCLUIR RUEDAS"
+     }
+    ]
+   }
+  },
+  {
+   "seccion": "Abullonado y finalización",
+   "operario": "Edwin",
+   "cliente": "Event2All",
+   "orden": "6783",
+   "cant": 1.0,
+   "desc": "CASE PARA 20 PARALES",
+   "obs": "",
+   "nota2": "",
+   "pasos": [
+    {
+     "p": "Trazo",
+     "e": "ok"
+    },
+    {
+     "p": "Spire",
+     "e": "ok"
+    },
+    {
+     "p": "Mecanizado",
+     "e": "ok"
+    },
+    {
+     "p": "Vectores",
+     "e": "ok"
+    },
+    {
+     "p": "Ruteado",
+     "e": "ok"
+    },
+    {
+     "p": "Grabar/Estampar",
+     "e": "ok"
+    },
+    {
+     "p": "Corte aluminio",
+     "e": "ok"
+    },
+    {
+     "p": "Alistar accesorios",
+     "e": "ok"
+    },
+    {
+     "p": "Ensamble",
+     "e": ""
+    },
+    {
+     "p": "Acabado final",
+     "e": ""
+    }
+   ],
+   "pos": 29,
+   "ficha": {
+    "fecha": "OCTUBRE 9 2026",
+    "embalaje": "PLASTICO",
+    "archivo": "OP W41",
+    "item": {
+     "titulo": "CASE PARA 20 PARALES",
+     "cant_t": "1",
+     "mats": [
+      {
+       "m": "Armado",
+       "cant": null,
+       "d": "TRIPLEX 12 LAMINADO"
+      },
+      {
+       "m": "Acabado",
+       "cant": null,
+       "d": "NO APLICA"
+      },
+      {
+       "m": "Hibrido",
+       "cant": null,
+       "d": "CMC"
+      },
+      {
+       "m": "Angulo",
+       "cant": null,
+       "d": "CMC"
+      },
+      {
+       "m": "Cierres",
+       "cant": 1,
+       "d": "LC-S11 MED"
+      },
+      {
+       "m": "Manijas",
+       "cant": 4,
+       "d": "LC-LS06 INCRUSTAR"
+      },
+      {
+       "m": "Esquineras",
+       "cant": 8,
+       "d": "LC-QB09 PE"
+      },
+      {
+       "m": "Abrazaderas",
+       "cant": 8,
+       "d": "LC-ZJM08 MED"
+      },
+      {
+       "m": "Bases",
+       "cant": 4,
+       "d": "RUEDAS GCF3"
+      },
+      {
+       "m": "Bisgras",
+       "cant": 2,
+       "d": "LC-BC07"
+      },
+      {
+       "m": "Otros",
+       "cant": 3.3333333333333335,
+       "d": "TUBO PVC 4\""
+      }
+     ],
+     "notas": [],
+     "medidas": []
+    },
+    "lineas": [
+     {
+      "cant": 1,
+      "desc": "CASE PARA 20 PARALES"
+     }
+    ]
+   }
+  },
+  {
+   "seccion": "Abullonado y finalización",
+   "operario": "Edwin",
+   "cliente": "Edgardo P.",
+   "orden": "6779",
+   "cant": 2.0,
+   "desc": "CASE INDIVIDUAL DE TV 65",
+   "obs": "",
+   "nota2": "",
+   "pasos": [
+    {
+     "p": "Trazo",
+     "e": "ok"
+    },
+    {
+     "p": "Spire",
+     "e": "ok"
+    },
+    {
+     "p": "Mecanizado",
+     "e": "ok"
+    },
+    {
+     "p": "Vectores",
+     "e": "ok"
+    },
+    {
+     "p": "Ruteado",
+     "e": "ok"
+    },
+    {
+     "p": "Grabar/Estampar",
+     "e": "ok"
+    },
+    {
+     "p": "Corte aluminio",
+     "e": "ok"
+    },
+    {
+     "p": "Alistar accesorios",
+     "e": "ok"
+    },
+    {
+     "p": "Ensamble",
+     "e": ""
+    },
+    {
+     "p": "Acabado final",
+     "e": ""
+    }
+   ],
    "pos": 30,
-   "seccion": "Semanas previas",
+   "ficha": {
+    "fecha": "OCTUBRE 10 2026",
+    "embalaje": "CARTON",
+    "archivo": "OP W41",
+    "item": {
+     "titulo": "CASE INDIVIDUAL DE TV 65",
+     "cant_t": "2",
+     "mats": [
+      {
+       "m": "Armado",
+       "cant": null,
+       "d": "TRIPLEX 12 MM"
+      },
+      {
+       "m": "Acabado",
+       "cant": null,
+       "d": "FORMICA NM"
+      },
+      {
+       "m": "Hibrido",
+       "cant": null,
+       "d": "CMC"
+      },
+      {
+       "m": "Angulo",
+       "cant": null,
+       "d": "CMC"
+      },
+      {
+       "m": "Cierres",
+       "cant": 4,
+       "d": "LC-S11 MED"
+      },
+      {
+       "m": "Manijas",
+       "cant": 4,
+       "d": "LC-LS06 INCRUSTAR"
+      },
+      {
+       "m": "Esquineras",
+       "cant": 8,
+       "d": "LC-QB09 PE"
+      },
+      {
+       "m": "Abrazaderas",
+       "cant": 8,
+       "d": "LC-ZJM08 MED"
+      },
+      {
+       "m": "Bases",
+       "cant": 4,
+       "d": "CAUCHOS"
+      },
+      {
+       "m": "Manijas",
+       "cant": 2,
+       "d": "LC-LS10 SOBREPONER"
+      }
+     ],
+     "notas": [],
+     "medidas": []
+    },
+    "lineas": [
+     {
+      "cant": 2,
+      "desc": "CASE INDIVIDUAL DE TV 65"
+     },
+     {
+      "cant": 1,
+      "desc": "CASE X 2 TV 65"
+     }
+    ]
+   }
+  },
+  {
+   "seccion": "Abullonado y finalización",
+   "operario": "Edwin",
+   "cliente": "Edgardo P.",
+   "orden": "6779",
+   "cant": 1.0,
+   "desc": "CASE X 2 TV 65",
+   "obs": "",
+   "nota2": "",
+   "pasos": [
+    {
+     "p": "Trazo",
+     "e": "ok"
+    },
+    {
+     "p": "Spire",
+     "e": "ok"
+    },
+    {
+     "p": "Mecanizado",
+     "e": "ok"
+    },
+    {
+     "p": "Vectores",
+     "e": "ok"
+    },
+    {
+     "p": "Ruteado",
+     "e": "ok"
+    },
+    {
+     "p": "Grabar/Estampar",
+     "e": "ok"
+    },
+    {
+     "p": "Corte aluminio",
+     "e": "ok"
+    },
+    {
+     "p": "Alistar accesorios",
+     "e": "ok"
+    },
+    {
+     "p": "Ensamble",
+     "e": ""
+    },
+    {
+     "p": "Acabado final",
+     "e": ""
+    }
+   ],
+   "pos": 31,
+   "ficha": {
+    "fecha": "OCTUBRE 10 2026",
+    "embalaje": "CARTON",
+    "archivo": "OP W41",
+    "item": {
+     "titulo": "CASE X 2 TV 65",
+     "cant_t": "1",
+     "mats": [
+      {
+       "m": "Armado",
+       "cant": null,
+       "d": "TRIPLEX 12 MM"
+      },
+      {
+       "m": "Acabado",
+       "cant": null,
+       "d": "FORMICA NM"
+      },
+      {
+       "m": "Hibrido",
+       "cant": null,
+       "d": "CMC"
+      },
+      {
+       "m": "Angulo",
+       "cant": null,
+       "d": "CMC"
+      },
+      {
+       "m": "Cierres",
+       "cant": 4,
+       "d": "LC-S11 MED"
+      },
+      {
+       "m": "Manijas",
+       "cant": 6,
+       "d": "LC-LS06 INCRUSTAR"
+      },
+      {
+       "m": "Esquineras",
+       "cant": 8,
+       "d": "LC-QB09 PE"
+      },
+      {
+       "m": "Abrazaderas",
+       "cant": 8,
+       "d": "LC-ZJM08 MED"
+      },
+      {
+       "m": "Bases",
+       "cant": 4,
+       "d": "RUEDAS GCF4"
+      }
+     ],
+     "notas": [],
+     "medidas": []
+    },
+    "lineas": [
+     {
+      "cant": 2,
+      "desc": "CASE INDIVIDUAL DE TV 65"
+     },
+     {
+      "cant": 1,
+      "desc": "CASE X 2 TV 65"
+     }
+    ]
+   }
+  },
+  {
+   "seccion": "Abullonado y finalización",
+   "operario": "Jcamilo",
+   "cliente": "José J. R. R.",
+   "orden": "6767",
+   "cant": 0.0,
+   "desc": "CASE 6 PAR LW02-6 RGBWA+UV PL PRO LIGHT 18x15W",
+   "obs": "",
+   "nota2": "",
+   "pasos": [
+    {
+     "p": "Trazo",
+     "e": "ok"
+    },
+    {
+     "p": "Spire",
+     "e": "ok"
+    },
+    {
+     "p": "Mecanizado",
+     "e": "ok"
+    },
+    {
+     "p": "Vectores",
+     "e": "ok"
+    },
+    {
+     "p": "Ruteado",
+     "e": "ok"
+    },
+    {
+     "p": "Grabar/Estampar",
+     "e": "ok"
+    },
+    {
+     "p": "Corte aluminio",
+     "e": "ok"
+    },
+    {
+     "p": "Alistar accesorios",
+     "e": "ok"
+    },
+    {
+     "p": "Ensamble",
+     "e": "ok"
+    },
+    {
+     "p": "Acabado final",
+     "e": ""
+    }
+   ],
+   "pos": 32,
+   "ficha": null
+  },
+  {
+   "seccion": "Abullonado y finalización",
+   "operario": "Jcamilo",
+   "cliente": "Javier G.",
+   "orden": "6760",
+   "cant": 0.0,
+   "desc": "CASE PARA 2 MAQUINAS Spark Fabrica SF-180 Tornado Flamer.",
+   "obs": "",
+   "nota2": "",
+   "pasos": [
+    {
+     "p": "Trazo",
+     "e": "ok"
+    },
+    {
+     "p": "Spire",
+     "e": "ok"
+    },
+    {
+     "p": "Mecanizado",
+     "e": "ok"
+    },
+    {
+     "p": "Vectores",
+     "e": "ok"
+    },
+    {
+     "p": "Ruteado",
+     "e": "ok"
+    },
+    {
+     "p": "Grabar/Estampar",
+     "e": "ok"
+    },
+    {
+     "p": "Corte aluminio",
+     "e": "ok"
+    },
+    {
+     "p": "Alistar accesorios",
+     "e": "ok"
+    },
+    {
+     "p": "Ensamble",
+     "e": "ok"
+    },
+    {
+     "p": "Acabado final",
+     "e": ""
+    }
+   ],
+   "pos": 33,
+   "ficha": null
+  },
+  {
+   "seccion": "Abullonado y finalización",
+   "operario": "Jcamilo",
+   "cliente": "VIP",
+   "orden": "6773",
+   "cant": 0.0,
+   "desc": "CASE PARA 18 BARRAS: 1 CON PL183 WASHER Y OTRO CON PL32SW LEDKING. 3 NIVELES INTERNOS DE 6 BARRAS CADA UNO",
+   "obs": "",
+   "nota2": "",
+   "pasos": [
+    {
+     "p": "Trazo",
+     "e": "ok"
+    },
+    {
+     "p": "Spire",
+     "e": "ok"
+    },
+    {
+     "p": "Mecanizado",
+     "e": "ok"
+    },
+    {
+     "p": "Vectores",
+     "e": "ok"
+    },
+    {
+     "p": "Ruteado",
+     "e": "ok"
+    },
+    {
+     "p": "Grabar/Estampar",
+     "e": "ok"
+    },
+    {
+     "p": "Corte aluminio",
+     "e": "ok"
+    },
+    {
+     "p": "Alistar accesorios",
+     "e": "ok"
+    },
+    {
+     "p": "Ensamble",
+     "e": "ok"
+    },
+    {
+     "p": "Acabado final",
+     "e": ""
+    }
+   ],
+   "pos": 34,
+   "ficha": null
+  },
+  {
+   "seccion": "Pausadas",
    "operario": "",
+   "cliente": "Adonay O.",
+   "orden": "6167",
+   "cant": 1.0,
+   "desc": "AJUSTE DE PARALES 4,5",
+   "obs": "",
+   "nota2": "",
+   "pasos": [
+    {
+     "p": "Trazo",
+     "e": ""
+    },
+    {
+     "p": "Spire",
+     "e": ""
+    },
+    {
+     "p": "Mecanizado",
+     "e": ""
+    },
+    {
+     "p": "Vectores",
+     "e": ""
+    },
+    {
+     "p": "Ruteado",
+     "e": ""
+    },
+    {
+     "p": "Grabar/Estampar",
+     "e": ""
+    },
+    {
+     "p": "Corte aluminio",
+     "e": ""
+    },
+    {
+     "p": "Alistar accesorios",
+     "e": ""
+    },
+    {
+     "p": "Ensamble",
+     "e": ""
+    },
+    {
+     "p": "Acabado final",
+     "e": ""
+    }
+   ],
+   "pos": 35,
+   "ficha": null
+  },
+  {
+   "seccion": "Pausadas",
+   "operario": "",
+   "cliente": "Bahia",
+   "orden": "6492",
+   "cant": 1.0,
+   "desc": "PUNTO FIJO CONSOLA",
+   "obs": "",
+   "nota2": "",
+   "pasos": [
+    {
+     "p": "Trazo",
+     "e": ""
+    },
+    {
+     "p": "Spire",
+     "e": ""
+    },
+    {
+     "p": "Mecanizado",
+     "e": ""
+    },
+    {
+     "p": "Vectores",
+     "e": ""
+    },
+    {
+     "p": "Ruteado",
+     "e": ""
+    },
+    {
+     "p": "Grabar/Estampar",
+     "e": ""
+    },
+    {
+     "p": "Corte aluminio",
+     "e": ""
+    },
+    {
+     "p": "Alistar accesorios",
+     "e": ""
+    },
+    {
+     "p": "Ensamble",
+     "e": ""
+    },
+    {
+     "p": "Acabado final",
+     "e": ""
+    }
+   ],
+   "pos": 36,
+   "ficha": null
+  },
+  {
+   "seccion": "Pausadas",
+   "operario": "",
+   "cliente": "Bahia",
+   "orden": "6492",
+   "cant": 1.0,
+   "desc": "PUNTO FIJO CONSOLA",
+   "obs": "",
+   "nota2": "",
+   "pasos": [
+    {
+     "p": "Trazo",
+     "e": ""
+    },
+    {
+     "p": "Spire",
+     "e": ""
+    },
+    {
+     "p": "Mecanizado",
+     "e": ""
+    },
+    {
+     "p": "Vectores",
+     "e": ""
+    },
+    {
+     "p": "Ruteado",
+     "e": ""
+    },
+    {
+     "p": "Grabar/Estampar",
+     "e": ""
+    },
+    {
+     "p": "Corte aluminio",
+     "e": ""
+    },
+    {
+     "p": "Alistar accesorios",
+     "e": ""
+    },
+    {
+     "p": "Ensamble",
+     "e": ""
+    },
+    {
+     "p": "Acabado final",
+     "e": ""
+    }
+   ],
+   "pos": 37,
+   "ficha": null
+  },
+  {
+   "seccion": "Pausadas",
+   "operario": "",
+   "cliente": "Stock",
+   "orden": "6606",
+   "cant": 6.0,
+   "desc": "CASE PARA 24 MICROFONOS (REVISAR H5)",
+   "obs": "en stock cortado",
+   "nota2": "",
+   "pasos": [
+    {
+     "p": "Trazo",
+     "e": "ok"
+    },
+    {
+     "p": "Spire",
+     "e": "ok"
+    },
+    {
+     "p": "Mecanizado",
+     "e": "ok"
+    },
+    {
+     "p": "Vectores",
+     "e": "ok"
+    },
+    {
+     "p": "Ruteado",
+     "e": "ok"
+    },
+    {
+     "p": "Grabar/Estampar",
+     "e": "PDT"
+    },
+    {
+     "p": "Corte aluminio",
+     "e": "PDT"
+    },
+    {
+     "p": "Alistar accesorios",
+     "e": "ok"
+    },
+    {
+     "p": "Ensamble",
+     "e": ""
+    },
+    {
+     "p": "Acabado final",
+     "e": ""
+    }
+   ],
+   "pos": 38,
+   "ficha": null
+  },
+  {
+   "seccion": "Semanas previas",
+   "operario": "Daniel",
    "cliente": "VIP",
    "orden": "6785",
    "cant": 2.0,
@@ -2382,6 +3567,7 @@
      "e": ""
     }
    ],
+   "pos": 39,
    "ficha": {
     "fecha": "OCTUBRE 9 2026",
     "embalaje": "PLASTICO",
@@ -2466,88 +3652,8 @@
    }
   },
   {
-   "pos": 31,
    "seccion": "Semanas previas",
-   "operario": "",
-   "cliente": "VIP",
-   "orden": "6785",
-   "cant": 1.0,
-   "desc": "ARREGLO DE CASE DE PATAS DE TARIMA",
-   "obs": "",
-   "nota2": "",
-   "pasos": [
-    {
-     "p": "Trazo",
-     "e": "ok"
-    },
-    {
-     "p": "Spire",
-     "e": "ok"
-    },
-    {
-     "p": "Mecanizado",
-     "e": "ok"
-    },
-    {
-     "p": "Vectores",
-     "e": "ok"
-    },
-    {
-     "p": "Ruteado",
-     "e": "ok"
-    },
-    {
-     "p": "Grabar/Estampar",
-     "e": "PDT"
-    },
-    {
-     "p": "Corte aluminio",
-     "e": "ok"
-    },
-    {
-     "p": "Alistar accesorios",
-     "e": "ok"
-    },
-    {
-     "p": "Ensamble",
-     "e": ""
-    },
-    {
-     "p": "Acabado final",
-     "e": ""
-    }
-   ],
-   "ficha": {
-    "fecha": "OCTUBRE 9 2026",
-    "embalaje": "PLASTICO",
-    "archivo": "OP W41",
-    "item": {
-     "titulo": "ARREGLO DE CASE DE PATAS DE TARIMA",
-     "cant_t": "1",
-     "mats": [],
-     "notas": [],
-     "medidas": []
-    },
-    "lineas": [
-     {
-      "cant": 2,
-      "desc": "CASE PARA EXTENSIONES DE CORRIENTE (RÉPLICA)"
-     },
-     {
-      "cant": 1,
-      "desc": "ARREGLO DE CASE DE PATAS DE TARIMA"
-     },
-     {
-      "cant": 1,
-      "desc": "CASE DE PATAS DE TARIMA"
-     }
-    ]
-   }
-  },
-  {
-   "pos": 32,
-   "seccion": "Semanas previas",
-   "operario": "",
+   "operario": "Jhan Leon",
    "cliente": "VIP",
    "orden": "6785",
    "cant": 1.0,
@@ -2596,6 +3702,7 @@
      "e": ""
     }
    ],
+   "pos": 40,
    "ficha": {
     "fecha": "OCTUBRE 9 2026",
     "embalaje": "PLASTICO",
@@ -2680,9 +3787,8 @@
    }
   },
   {
-   "pos": 33,
    "seccion": "Semanas previas",
-   "operario": "",
+   "operario": "Daniel",
    "cliente": "Gastón V.",
    "orden": "6788",
    "cant": 2.0,
@@ -2716,7 +3822,7 @@
     },
     {
      "p": "Corte aluminio",
-     "e": ""
+     "e": "PDT"
     },
     {
      "p": "Alistar accesorios",
@@ -2731,6 +3837,7 @@
      "e": ""
     }
    ],
+   "pos": 41,
    "ficha": {
     "fecha": "OCTUBRE 10 2026",
     "embalaje": "CARTON",
@@ -2809,9 +3916,8 @@
    }
   },
   {
-   "pos": 34,
    "seccion": "Semanas previas",
-   "operario": "",
+   "operario": "Jhan Leon",
    "cliente": "Luis A.",
    "orden": "6789",
    "cant": 2.0,
@@ -2860,6 +3966,7 @@
      "e": ""
     }
    ],
+   "pos": 42,
    "ficha": {
     "fecha": "OCTUBRE 10 2026",
     "embalaje": "CARTON",
@@ -2941,9 +4048,8 @@
    }
   },
   {
-   "pos": 35,
    "seccion": "Semanas previas",
-   "operario": "",
+   "operario": "Daniel",
    "cliente": "Yussef S.",
    "orden": "6790",
    "cant": 1.0,
@@ -2981,7 +4087,7 @@
     },
     {
      "p": "Alistar accesorios",
-     "e": ""
+     "e": "PDT"
     },
     {
      "p": "Ensamble",
@@ -2992,6 +4098,7 @@
      "e": ""
     }
    ],
+   "pos": 43,
    "ficha": {
     "fecha": "OCTUBRE 10 2026",
     "embalaje": "PLASTICO",
@@ -3069,9 +4176,8 @@
    }
   },
   {
-   "pos": 36,
    "seccion": "Semanas previas",
-   "operario": "",
+   "operario": "Daniel",
    "cliente": "Yussef S.",
    "orden": "6790",
    "cant": 1.0,
@@ -3109,7 +4215,7 @@
     },
     {
      "p": "Alistar accesorios",
-     "e": ""
+     "e": "PDT"
     },
     {
      "p": "Ensamble",
@@ -3120,6 +4226,7 @@
      "e": ""
     }
    ],
+   "pos": 44,
    "ficha": {
     "fecha": "OCTUBRE 10 2026",
     "embalaje": "PLASTICO",
@@ -3198,63 +4305,8 @@
    }
   },
   {
-   "pos": 37,
    "seccion": "Semanas previas",
-   "operario": "",
-   "cliente": "Maiky E. M. M.",
-   "orden": "6774",
-   "cant": 1.0,
-   "desc": "CASE PARA CONTROLADOR Pioneer ddj FLX 10",
-   "obs": "POR DEFINIR",
-   "nota2": "",
-   "pasos": [
-    {
-     "p": "Trazo",
-     "e": ""
-    },
-    {
-     "p": "Spire",
-     "e": ""
-    },
-    {
-     "p": "Mecanizado",
-     "e": ""
-    },
-    {
-     "p": "Vectores",
-     "e": ""
-    },
-    {
-     "p": "Ruteado",
-     "e": ""
-    },
-    {
-     "p": "Grabar/Estampar",
-     "e": ""
-    },
-    {
-     "p": "Corte aluminio",
-     "e": ""
-    },
-    {
-     "p": "Alistar accesorios",
-     "e": ""
-    },
-    {
-     "p": "Ensamble",
-     "e": ""
-    },
-    {
-     "p": "Acabado final",
-     "e": ""
-    }
-   ],
-   "ficha": null
-  },
-  {
-   "pos": 38,
-   "seccion": "Semanas previas",
-   "operario": "",
+   "operario": "Jhan Leon",
    "cliente": "Josimar G.",
    "orden": "6784",
    "cant": 1.0,
@@ -3303,6 +4355,7 @@
      "e": ""
     }
    ],
+   "pos": 45,
    "ficha": {
     "fecha": "OCTUBRE 6 2026",
     "embalaje": "PLASTICO",
@@ -3384,9 +4437,8 @@
    }
   },
   {
-   "pos": 39,
    "seccion": "Semanas previas",
-   "operario": "",
+   "operario": "Jhan Leon",
    "cliente": "Hector M.",
    "orden": "6778",
    "cant": 1.0,
@@ -3435,6 +4487,7 @@
      "e": ""
     }
    ],
+   "pos": 46,
    "ficha": {
     "fecha": "OCTUBRE 7 2026",
     "embalaje": "CARTON",
@@ -3506,14 +4559,745 @@
    }
   },
   {
-   "pos": 40,
-   "seccion": "Semanas previas",
-   "operario": "",
+   "seccion": "Órdenes semana 42",
+   "operario": "Gabriel",
+   "cliente": "Stock",
+   "orden": "6652",
+   "cant": 1.0,
+   "desc": "RACK 2U22",
+   "obs": "en stock cortado",
+   "nota2": "",
+   "pasos": [
+    {
+     "p": "Trazo",
+     "e": "ok"
+    },
+    {
+     "p": "Spire",
+     "e": "ok"
+    },
+    {
+     "p": "Mecanizado",
+     "e": "ok"
+    },
+    {
+     "p": "Vectores",
+     "e": "ok"
+    },
+    {
+     "p": "Ruteado",
+     "e": "ok"
+    },
+    {
+     "p": "Grabar/Estampar",
+     "e": "PDT"
+    },
+    {
+     "p": "Corte aluminio",
+     "e": "PDT"
+    },
+    {
+     "p": "Alistar accesorios",
+     "e": "ok"
+    },
+    {
+     "p": "Ensamble",
+     "e": ""
+    },
+    {
+     "p": "Acabado final",
+     "e": ""
+    }
+   ],
+   "pos": 47,
+   "ficha": {
+    "fecha": "JULIO 25 2026",
+    "embalaje": null,
+    "archivo": "OP W42",
+    "item": {
+     "titulo": "RACK 2U22",
+     "cant_t": "1",
+     "mats": [
+      {
+       "m": "Armado",
+       "cant": null,
+       "d": "TRIPLEX 9 LAM HEX"
+      },
+      {
+       "m": "Acabado",
+       "cant": null,
+       "d": "NO APLICA"
+      },
+      {
+       "m": "Hibrido",
+       "cant": null,
+       "d": "CMC"
+      },
+      {
+       "m": "Angulo",
+       "cant": null,
+       "d": "CMC"
+      },
+      {
+       "m": "Cierres",
+       "cant": 4,
+       "d": "LC-YBS19 PEQ"
+      },
+      {
+       "m": "Manijas",
+       "cant": 2,
+       "d": "LC-LS10 SOBREPONER"
+      },
+      {
+       "m": "Esquineras",
+       "cant": 8,
+       "d": "LC-QB09 PE"
+      },
+      {
+       "m": "Abrazaderas",
+       "cant": 16,
+       "d": "LC-ZJM08 MED"
+      },
+      {
+       "m": "Bases",
+       "cant": 4,
+       "d": "CAUCHOS"
+      },
+      {
+       "m": "Angulo Rack Delante",
+       "cant": null,
+       "d": "ANGULO RACK D"
+      }
+     ],
+     "notas": [],
+     "medidas": []
+    },
+    "lineas": [
+     {
+      "cant": 1,
+      "desc": "RACK 2U22"
+     }
+    ]
+   }
+  },
+  {
+   "seccion": "Órdenes semana 42",
+   "operario": "Gabriel",
+   "cliente": "Stock",
+   "orden": "6738",
+   "cant": 1.0,
+   "desc": "RACK 3U18",
+   "obs": "en stock cortado",
+   "nota2": "",
+   "pasos": [
+    {
+     "p": "Trazo",
+     "e": "ok"
+    },
+    {
+     "p": "Spire",
+     "e": "ok"
+    },
+    {
+     "p": "Mecanizado",
+     "e": "ok"
+    },
+    {
+     "p": "Vectores",
+     "e": "ok"
+    },
+    {
+     "p": "Ruteado",
+     "e": "ok"
+    },
+    {
+     "p": "Grabar/Estampar",
+     "e": "PDT"
+    },
+    {
+     "p": "Corte aluminio",
+     "e": "PDT"
+    },
+    {
+     "p": "Alistar accesorios",
+     "e": ""
+    },
+    {
+     "p": "Ensamble",
+     "e": ""
+    },
+    {
+     "p": "Acabado final",
+     "e": ""
+    }
+   ],
+   "pos": 48,
+   "ficha": {
+    "fecha": "SEPTIEMBRE 15 2026",
+    "embalaje": null,
+    "archivo": "OP W42",
+    "item": {
+     "titulo": "RACK 3U18",
+     "cant_t": "1",
+     "mats": [
+      {
+       "m": "Armado",
+       "cant": null,
+       "d": "TRIPLEX 9 LAM HEX"
+      },
+      {
+       "m": "Acabado",
+       "cant": null,
+       "d": "NO APLICA"
+      },
+      {
+       "m": "Hibrido",
+       "cant": null,
+       "d": "CMC"
+      },
+      {
+       "m": "Angulo",
+       "cant": null,
+       "d": "CMC"
+      },
+      {
+       "m": "Cierres",
+       "cant": 4,
+       "d": "LC-YBS19 PEQ"
+      },
+      {
+       "m": "Manijas",
+       "cant": 2,
+       "d": "LC-LS06 INCRUSTAR"
+      },
+      {
+       "m": "Esquineras",
+       "cant": 8,
+       "d": "LC-QB09 PE"
+      },
+      {
+       "m": "Abrazaderas",
+       "cant": 16,
+       "d": "LC-ZJM08 MED"
+      },
+      {
+       "m": "Bases",
+       "cant": 4,
+       "d": "CAUCHOS"
+      },
+      {
+       "m": "Otros",
+       "cant": null,
+       "d": "ANGULO RACK T/D"
+      }
+     ],
+     "notas": [],
+     "medidas": []
+    },
+    "lineas": [
+     {
+      "cant": 1,
+      "desc": "RACK 3U18"
+     }
+    ]
+   }
+  },
+  {
+   "seccion": "Órdenes semana 42",
+   "operario": "Gabriel",
+   "cliente": "Stock",
+   "orden": "6758",
+   "cant": 1.0,
+   "desc": "RACK 2U15",
+   "obs": "en stock cortado",
+   "nota2": "",
+   "pasos": [
+    {
+     "p": "Trazo",
+     "e": "ok"
+    },
+    {
+     "p": "Spire",
+     "e": "ok"
+    },
+    {
+     "p": "Mecanizado",
+     "e": "ok"
+    },
+    {
+     "p": "Vectores",
+     "e": "ok"
+    },
+    {
+     "p": "Ruteado",
+     "e": "ok"
+    },
+    {
+     "p": "Grabar/Estampar",
+     "e": "PDT"
+    },
+    {
+     "p": "Corte aluminio",
+     "e": "PDT"
+    },
+    {
+     "p": "Alistar accesorios",
+     "e": ""
+    },
+    {
+     "p": "Ensamble",
+     "e": ""
+    },
+    {
+     "p": "Acabado final",
+     "e": ""
+    }
+   ],
+   "pos": 49,
+   "ficha": {
+    "fecha": "SEPTIEMBRE 28 2026",
+    "embalaje": null,
+    "archivo": "OP W42",
+    "item": {
+     "titulo": "Rack 2U15",
+     "cant_t": "1",
+     "mats": [
+      {
+       "m": "Armado",
+       "cant": null,
+       "d": "TRIPLEX 9 LAM HEX"
+      },
+      {
+       "m": "Acabado",
+       "cant": null,
+       "d": "NO APLICA"
+      },
+      {
+       "m": "Hibrido",
+       "cant": null,
+       "d": "CMC"
+      },
+      {
+       "m": "Angulo",
+       "cant": null,
+       "d": "CMC"
+      },
+      {
+       "m": "Cierres",
+       "cant": 4,
+       "d": "LC-YBS19 PEQ"
+      },
+      {
+       "m": "Manijas",
+       "cant": 2,
+       "d": "LC-LS10 SOBREPONER"
+      },
+      {
+       "m": "Esquineras",
+       "cant": 8,
+       "d": "LC-QB09 PE"
+      },
+      {
+       "m": "Abrazaderas",
+       "cant": 16,
+       "d": "LC-ZJM08 MED"
+      },
+      {
+       "m": "Bases",
+       "cant": 4,
+       "d": "CAUCHOS"
+      },
+      {
+       "m": "Angulo Rack Delante",
+       "cant": null,
+       "d": "ANGULO RACK D"
+      }
+     ],
+     "notas": [],
+     "medidas": []
+    },
+    "lineas": [
+     {
+      "cant": 1,
+      "desc": "Rack 2U15"
+     }
+    ]
+   }
+  },
+  {
+   "seccion": "Órdenes semana 42",
+   "operario": "Gabriel",
+   "cliente": "Stock",
+   "orden": "6759",
+   "cant": 1.0,
+   "desc": "RACK 12U22",
+   "obs": "en stock cortado",
+   "nota2": "",
+   "pasos": [
+    {
+     "p": "Trazo",
+     "e": "ok"
+    },
+    {
+     "p": "Spire",
+     "e": "ok"
+    },
+    {
+     "p": "Mecanizado",
+     "e": "ok"
+    },
+    {
+     "p": "Vectores",
+     "e": "ok"
+    },
+    {
+     "p": "Ruteado",
+     "e": "ok"
+    },
+    {
+     "p": "Grabar/Estampar",
+     "e": "PDT"
+    },
+    {
+     "p": "Corte aluminio",
+     "e": "PDT"
+    },
+    {
+     "p": "Alistar accesorios",
+     "e": ""
+    },
+    {
+     "p": "Ensamble",
+     "e": ""
+    },
+    {
+     "p": "Acabado final",
+     "e": ""
+    }
+   ],
+   "pos": 50,
+   "ficha": {
+    "fecha": "SEPTIEMBRE 28 2026",
+    "embalaje": null,
+    "archivo": "OP W42",
+    "item": {
+     "titulo": "RACK 12U22",
+     "cant_t": "1",
+     "mats": [
+      {
+       "m": "Armado",
+       "cant": null,
+       "d": "TRIPLEX 12 MM"
+      },
+      {
+       "m": "Acabado",
+       "cant": null,
+       "d": "FORMICA NM"
+      },
+      {
+       "m": "Hibrido",
+       "cant": null,
+       "d": "CMC"
+      },
+      {
+       "m": "Angulo",
+       "cant": null,
+       "d": "CMC"
+      },
+      {
+       "m": "Cierres",
+       "cant": 8,
+       "d": "LC-S11 MED"
+      },
+      {
+       "m": "Manijas",
+       "cant": 4,
+       "d": "LC-LS06 INCRUSTAR"
+      },
+      {
+       "m": "Esquineras",
+       "cant": 8,
+       "d": "LC-QB09 PE"
+      },
+      {
+       "m": "Abrazaderas",
+       "cant": 16,
+       "d": "LC-ZJM08 MED"
+      },
+      {
+       "m": "Bases",
+       "cant": 4,
+       "d": "RUEDAS GCF4"
+      },
+      {
+       "m": "Otros",
+       "cant": null,
+       "d": "ANGULO RACK T/D"
+      }
+     ],
+     "notas": [],
+     "medidas": []
+    },
+    "lineas": [
+     {
+      "cant": 1,
+      "desc": "RACK 12U22"
+     }
+    ]
+   }
+  },
+  {
+   "seccion": "Órdenes semana 42",
+   "operario": "Gabriel",
+   "cliente": "Stock",
+   "orden": "6802",
+   "cant": 1.0,
+   "desc": "RACK 6U18",
+   "obs": "en stock cortado",
+   "nota2": "",
+   "pasos": [
+    {
+     "p": "Trazo",
+     "e": "ok"
+    },
+    {
+     "p": "Spire",
+     "e": "ok"
+    },
+    {
+     "p": "Mecanizado",
+     "e": "ok"
+    },
+    {
+     "p": "Vectores",
+     "e": "ok"
+    },
+    {
+     "p": "Ruteado",
+     "e": "ok"
+    },
+    {
+     "p": "Grabar/Estampar",
+     "e": "PDT"
+    },
+    {
+     "p": "Corte aluminio",
+     "e": "PDT"
+    },
+    {
+     "p": "Alistar accesorios",
+     "e": ""
+    },
+    {
+     "p": "Ensamble",
+     "e": ""
+    },
+    {
+     "p": "Acabado final",
+     "e": ""
+    }
+   ],
+   "pos": 51,
+   "ficha": {
+    "fecha": "OCTUBRE 18 2026",
+    "embalaje": "INDEFINIDO",
+    "archivo": "OP W42",
+    "item": {
+     "titulo": "RACK 6U18",
+     "cant_t": "1",
+     "mats": [
+      {
+       "m": "Armado",
+       "cant": null,
+       "d": "TRIPLEX 9 LAM HEX"
+      },
+      {
+       "m": "Acabado",
+       "cant": null,
+       "d": "NO APLICA"
+      },
+      {
+       "m": "Hibrido",
+       "cant": null,
+       "d": "CMC"
+      },
+      {
+       "m": "Angulo",
+       "cant": null,
+       "d": "CMC"
+      },
+      {
+       "m": "Cierres",
+       "cant": 4,
+       "d": "LC-S11 MED"
+      },
+      {
+       "m": "Manijas",
+       "cant": 2,
+       "d": "LC-LS06 INCRUSTAR"
+      },
+      {
+       "m": "Esquineras",
+       "cant": 8,
+       "d": "LC-QB09 PE"
+      },
+      {
+       "m": "Abrazaderas",
+       "cant": 16,
+       "d": "LC-ZJM08 MED"
+      },
+      {
+       "m": "Bases",
+       "cant": 4,
+       "d": "CAUCHOS"
+      },
+      {
+       "m": "Angulo Delantero",
+       "cant": null,
+       "d": "ANGULO RACK D"
+      }
+     ],
+     "notas": [],
+     "medidas": []
+    },
+    "lineas": [
+     {
+      "cant": 1,
+      "desc": "RACK 6U18"
+     }
+    ]
+   }
+  },
+  {
+   "seccion": "Órdenes semana 42",
+   "operario": "Daniel",
    "cliente": "Maiky E. M. M.",
    "orden": "6774",
    "cant": 1.0,
-   "desc": "CASE PARA CONTROLADOR Pioneer ddj FLX 10",
-   "obs": "X FABRICAR",
+   "desc": "CASE PARA CONTROLADOR Pioneer ddj FLX 10 MTE",
+   "obs": "",
+   "nota2": "",
+   "pasos": [
+    {
+     "p": "Trazo",
+     "e": ""
+    },
+    {
+     "p": "Spire",
+     "e": ""
+    },
+    {
+     "p": "Mecanizado",
+     "e": ""
+    },
+    {
+     "p": "Vectores",
+     "e": ""
+    },
+    {
+     "p": "Ruteado",
+     "e": ""
+    },
+    {
+     "p": "Grabar/Estampar",
+     "e": ""
+    },
+    {
+     "p": "Corte aluminio",
+     "e": ""
+    },
+    {
+     "p": "Alistar accesorios",
+     "e": "PDT"
+    },
+    {
+     "p": "Ensamble",
+     "e": ""
+    },
+    {
+     "p": "Acabado final",
+     "e": ""
+    }
+   ],
+   "pos": 52,
+   "ficha": {
+    "fecha": "OCTUBRE 5 2026",
+    "embalaje": "CARTON",
+    "archivo": "OP W42",
+    "item": {
+     "titulo": "CASE PARA CONTROLADOR Pioneer ddj FLX 10",
+     "cant_t": "1",
+     "mats": [
+      {
+       "m": "Acabado",
+       "cant": null,
+       "d": "NO APLICA"
+      },
+      {
+       "m": "Hibrido",
+       "cant": null,
+       "d": "CMC"
+      },
+      {
+       "m": "Angulo",
+       "cant": null,
+       "d": "CMC"
+      },
+      {
+       "m": "Cierres",
+       "cant": null,
+       "d": "LC-S11 MED"
+      },
+      {
+       "m": "Manijas",
+       "cant": 2,
+       "d": "LC-LS06 INCRUSTAR"
+      },
+      {
+       "m": "Esquineras",
+       "cant": 8,
+       "d": "LC-QB09 PE"
+      },
+      {
+       "m": "Abrazaderas",
+       "cant": 8,
+       "d": "LC-ZJM08 MED"
+      },
+      {
+       "m": "Bases",
+       "cant": 4,
+       "d": "CAUCHOS"
+      },
+      {
+       "m": "Otros",
+       "cant": null,
+       "d": "RIEL PESADO 30"
+      },
+      {
+       "m": "Otros",
+       "cant": null,
+       "d": "ANGULO DE MEDIA"
+      }
+     ],
+     "notas": [],
+     "medidas": []
+    },
+    "lineas": [
+     {
+      "cant": 1,
+      "desc": "CASE PARA CONTROLADOR Pioneer ddj FLX 10"
+     }
+    ]
+   }
+  },
+  {
+   "seccion": "Órdenes semana 42",
+   "operario": "",
+   "cliente": "Boris B.",
+   "orden": "6791",
+   "cant": 4.0,
+   "desc": "CASE INDIVIDUAL CABINA G212",
+   "obs": "",
    "nota2": "",
    "pasos": [
     {
@@ -3557,7 +5341,2467 @@
      "e": ""
     }
    ],
-   "ficha": null
+   "pos": 53,
+   "ficha": {
+    "fecha": "OCTUBRE 13 2026",
+    "embalaje": "PLASTICO",
+    "archivo": "OP W42",
+    "item": {
+     "titulo": "CASE INDIVIDUAL CABINA G212",
+     "cant_t": "4",
+     "mats": [
+      {
+       "m": "Armado",
+       "cant": null,
+       "d": "TRIPLEX 12 MM"
+      },
+      {
+       "m": "Acabado",
+       "cant": null,
+       "d": "FORMICA NM"
+      },
+      {
+       "m": "Hibrido",
+       "cant": null,
+       "d": "CMC"
+      },
+      {
+       "m": "Angulo",
+       "cant": null,
+       "d": "CMC"
+      },
+      {
+       "m": "Cierres",
+       "cant": 4,
+       "d": "LC-S11 MED"
+      },
+      {
+       "m": "Manijas",
+       "cant": 4,
+       "d": "LC-LS06 INCRUSTAR"
+      },
+      {
+       "m": "Esquineras",
+       "cant": 8,
+       "d": "LC-QB09 PE"
+      },
+      {
+       "m": "Abrazaderas",
+       "cant": 8,
+       "d": "LC-ZJM08 MED"
+      },
+      {
+       "m": "Bases",
+       "cant": 4,
+       "d": "RUEDAS GCF4"
+      },
+      {
+       "m": "Soporte",
+       "cant": 4,
+       "d": "LC-LW05 PORTARUEDAS"
+      }
+     ],
+     "notas": [],
+     "medidas": []
+    },
+    "lineas": [
+     {
+      "cant": 4,
+      "desc": "CASE INDIVIDUAL CABINA G212"
+     },
+     {
+      "cant": 2,
+      "desc": "CASE PARA 2 G210"
+     }
+    ]
+   }
+  },
+  {
+   "seccion": "Órdenes semana 42",
+   "operario": "",
+   "cliente": "Boris B.",
+   "orden": "6791",
+   "cant": 2.0,
+   "desc": "CASE PARA 2 G210",
+   "obs": "",
+   "nota2": "",
+   "pasos": [
+    {
+     "p": "Trazo",
+     "e": ""
+    },
+    {
+     "p": "Spire",
+     "e": ""
+    },
+    {
+     "p": "Mecanizado",
+     "e": ""
+    },
+    {
+     "p": "Vectores",
+     "e": ""
+    },
+    {
+     "p": "Ruteado",
+     "e": ""
+    },
+    {
+     "p": "Grabar/Estampar",
+     "e": ""
+    },
+    {
+     "p": "Corte aluminio",
+     "e": ""
+    },
+    {
+     "p": "Alistar accesorios",
+     "e": ""
+    },
+    {
+     "p": "Ensamble",
+     "e": ""
+    },
+    {
+     "p": "Acabado final",
+     "e": ""
+    }
+   ],
+   "pos": 54,
+   "ficha": {
+    "fecha": "OCTUBRE 13 2026",
+    "embalaje": "PLASTICO",
+    "archivo": "OP W42",
+    "item": {
+     "titulo": "CASE PARA 2 G210",
+     "cant_t": "2",
+     "mats": [
+      {
+       "m": "Armado",
+       "cant": null,
+       "d": "TRIPLEX 12 MM"
+      },
+      {
+       "m": "Acabado",
+       "cant": null,
+       "d": "FORMICA NM"
+      },
+      {
+       "m": "Hibrido",
+       "cant": null,
+       "d": "CMC"
+      },
+      {
+       "m": "Angulo",
+       "cant": null,
+       "d": "CMC"
+      },
+      {
+       "m": "Cierres",
+       "cant": 4,
+       "d": "LC-S11 MED"
+      },
+      {
+       "m": "Manijas",
+       "cant": 4,
+       "d": "LC-LS06 INCRUSTAR"
+      },
+      {
+       "m": "Esquineras",
+       "cant": 8,
+       "d": "LC-QB09 PE"
+      },
+      {
+       "m": "Abrazaderas",
+       "cant": 8,
+       "d": "LC-ZJM08 MED"
+      },
+      {
+       "m": "Bases",
+       "cant": 4,
+       "d": "RUEDAS INCRUSTAR LC-PLZ12"
+      },
+      {
+       "m": "Soporte",
+       "cant": 4,
+       "d": "LC-LW05 PORTARUEDAS"
+      }
+     ],
+     "notas": [],
+     "medidas": []
+    },
+    "lineas": [
+     {
+      "cant": 4,
+      "desc": "CASE INDIVIDUAL CABINA G212"
+     },
+     {
+      "cant": 2,
+      "desc": "CASE PARA 2 G210"
+     }
+    ]
+   }
+  },
+  {
+   "seccion": "Órdenes semana 42",
+   "operario": "",
+   "cliente": "Company M.",
+   "orden": "6792",
+   "cant": 3.0,
+   "desc": "CASE PARA 2 LINE ARRAY G210 VERTICAL",
+   "obs": "",
+   "nota2": "",
+   "pasos": [
+    {
+     "p": "Trazo",
+     "e": ""
+    },
+    {
+     "p": "Spire",
+     "e": ""
+    },
+    {
+     "p": "Mecanizado",
+     "e": ""
+    },
+    {
+     "p": "Vectores",
+     "e": ""
+    },
+    {
+     "p": "Ruteado",
+     "e": ""
+    },
+    {
+     "p": "Grabar/Estampar",
+     "e": ""
+    },
+    {
+     "p": "Corte aluminio",
+     "e": ""
+    },
+    {
+     "p": "Alistar accesorios",
+     "e": ""
+    },
+    {
+     "p": "Ensamble",
+     "e": ""
+    },
+    {
+     "p": "Acabado final",
+     "e": ""
+    }
+   ],
+   "pos": 55,
+   "ficha": {
+    "fecha": "OCTUBRE 14 2026",
+    "embalaje": "CARTON",
+    "archivo": "OP W42",
+    "item": {
+     "titulo": "CASE PARA 2 LINE ARRAY G210 VERTICAL",
+     "cant_t": "3",
+     "mats": [
+      {
+       "m": "Armado",
+       "cant": null,
+       "d": "TRIPLEX 12 LAMINADO"
+      },
+      {
+       "m": "Acabado",
+       "cant": null,
+       "d": "NO APLICA"
+      },
+      {
+       "m": "Hibrido",
+       "cant": null,
+       "d": "CMC"
+      },
+      {
+       "m": "Angulo",
+       "cant": null,
+       "d": "CMC"
+      },
+      {
+       "m": "Cierres",
+       "cant": 4,
+       "d": "LC-S11 MED"
+      },
+      {
+       "m": "Manijas",
+       "cant": 4,
+       "d": "LC-LS06 INCRUSTAR"
+      },
+      {
+       "m": "Esquineras",
+       "cant": 8,
+       "d": "LC-QB09 PE"
+      },
+      {
+       "m": "Abrazaderas",
+       "cant": 8,
+       "d": "LC-ZJM08 MED"
+      },
+      {
+       "m": "Bases",
+       "cant": 4,
+       "d": "RUEDAS GCF4"
+      },
+      {
+       "m": "Soporte",
+       "cant": 4,
+       "d": "LC-LW05 PORTARUEDAS"
+      }
+     ],
+     "notas": [],
+     "medidas": []
+    },
+    "lineas": [
+     {
+      "cant": 3,
+      "desc": "CASE PARA 2 LINE ARRAY G210 VERTICAL"
+     },
+     {
+      "cant": 2,
+      "desc": "CASE INDIVIDUAL PARA BAJO SOUNDKING GL218ES"
+     },
+     {
+      "cant": 1,
+      "desc": "CASE CONVERTIBLE EN MESA HIDRAULICO PARA MIDAS M32 LIVE"
+     },
+     {
+      "cant": 1,
+      "desc": "BAUL ORGANIZADOR CMC 100x60x60 - CABLES Y LOGISTICA"
+     }
+    ]
+   }
+  },
+  {
+   "seccion": "Órdenes semana 42",
+   "operario": "",
+   "cliente": "Company M.",
+   "orden": "6792",
+   "cant": 2.0,
+   "desc": "CASE INDIVIDUAL PARA BAJO SOUNDKING GL218ES",
+   "obs": "",
+   "nota2": "",
+   "pasos": [
+    {
+     "p": "Trazo",
+     "e": ""
+    },
+    {
+     "p": "Spire",
+     "e": ""
+    },
+    {
+     "p": "Mecanizado",
+     "e": ""
+    },
+    {
+     "p": "Vectores",
+     "e": ""
+    },
+    {
+     "p": "Ruteado",
+     "e": ""
+    },
+    {
+     "p": "Grabar/Estampar",
+     "e": ""
+    },
+    {
+     "p": "Corte aluminio",
+     "e": ""
+    },
+    {
+     "p": "Alistar accesorios",
+     "e": ""
+    },
+    {
+     "p": "Ensamble",
+     "e": ""
+    },
+    {
+     "p": "Acabado final",
+     "e": ""
+    }
+   ],
+   "pos": 56,
+   "ficha": {
+    "fecha": "OCTUBRE 14 2026",
+    "embalaje": "CARTON",
+    "archivo": "OP W42",
+    "item": {
+     "titulo": "CASE INDIVIDUAL PARA BAJO SOUNDKING GL218ES",
+     "cant_t": "2",
+     "mats": [
+      {
+       "m": "Armado",
+       "cant": null,
+       "d": "TRIPLEX 12 LAMINADO"
+      },
+      {
+       "m": "Acabado",
+       "cant": null,
+       "d": "NO APLICA"
+      },
+      {
+       "m": "Hibrido",
+       "cant": null,
+       "d": "CMC"
+      },
+      {
+       "m": "Angulo",
+       "cant": null,
+       "d": "CMC"
+      },
+      {
+       "m": "Cierres",
+       "cant": 4,
+       "d": "LC-S11 MED"
+      },
+      {
+       "m": "Manijas",
+       "cant": 4,
+       "d": "LC-LS06 INCRUSTAR"
+      },
+      {
+       "m": "Esquineras",
+       "cant": 8,
+       "d": "LC-QB09 PE"
+      },
+      {
+       "m": "Abrazaderas",
+       "cant": 8,
+       "d": "LC-ZJM08 MED"
+      },
+      {
+       "m": "Bases",
+       "cant": 4,
+       "d": "RUEDAS GCF4"
+      },
+      {
+       "m": "Soporte",
+       "cant": 4,
+       "d": "LC-LW05 PORTARUEDAS"
+      }
+     ],
+     "notas": [],
+     "medidas": []
+    },
+    "lineas": [
+     {
+      "cant": 3,
+      "desc": "CASE PARA 2 LINE ARRAY G210 VERTICAL"
+     },
+     {
+      "cant": 2,
+      "desc": "CASE INDIVIDUAL PARA BAJO SOUNDKING GL218ES"
+     },
+     {
+      "cant": 1,
+      "desc": "CASE CONVERTIBLE EN MESA HIDRAULICO PARA MIDAS M32 LIVE"
+     },
+     {
+      "cant": 1,
+      "desc": "BAUL ORGANIZADOR CMC 100x60x60 - CABLES Y LOGISTICA"
+     }
+    ]
+   }
+  },
+  {
+   "seccion": "Órdenes semana 42",
+   "operario": "",
+   "cliente": "Company M.",
+   "orden": "6792",
+   "cant": 1.0,
+   "desc": "CASE CONVERTIBLE EN MESA HIDRAULICO PARA MIDAS M32 LIVE",
+   "obs": "",
+   "nota2": "",
+   "pasos": [
+    {
+     "p": "Trazo",
+     "e": ""
+    },
+    {
+     "p": "Spire",
+     "e": ""
+    },
+    {
+     "p": "Mecanizado",
+     "e": ""
+    },
+    {
+     "p": "Vectores",
+     "e": ""
+    },
+    {
+     "p": "Ruteado",
+     "e": ""
+    },
+    {
+     "p": "Grabar/Estampar",
+     "e": ""
+    },
+    {
+     "p": "Corte aluminio",
+     "e": ""
+    },
+    {
+     "p": "Alistar accesorios",
+     "e": ""
+    },
+    {
+     "p": "Ensamble",
+     "e": ""
+    },
+    {
+     "p": "Acabado final",
+     "e": ""
+    }
+   ],
+   "pos": 57,
+   "ficha": {
+    "fecha": "OCTUBRE 14 2026",
+    "embalaje": "CARTON",
+    "archivo": "OP W42",
+    "item": {
+     "titulo": "CASE CONVERTIBLE EN MESA HIDRAULICO PARA MIDAS M32 LIVE",
+     "cant_t": "1",
+     "mats": [
+      {
+       "m": "Armado",
+       "cant": null,
+       "d": "TRIPLEX 12 MM"
+      },
+      {
+       "m": "Acabado",
+       "cant": null,
+       "d": "FORMICA NM"
+      },
+      {
+       "m": "Hibrido",
+       "cant": null,
+       "d": "CMC"
+      },
+      {
+       "m": "Angulo",
+       "cant": null,
+       "d": "CMC"
+      },
+      {
+       "m": "Cierres",
+       "cant": 5,
+       "d": "LC-S11 MED"
+      },
+      {
+       "m": "Manijas",
+       "cant": 2,
+       "d": "INCRUSTAR CH LC-LS06"
+      },
+      {
+       "m": "Abullonado",
+       "cant": null,
+       "d": "EVA+YUMBOLON"
+      },
+      {
+       "m": "Esquineras",
+       "cant": 8,
+       "d": "LC-QB09"
+      },
+      {
+       "m": "Abrazaderas",
+       "cant": 8,
+       "d": "LC-ZJM08"
+      },
+      {
+       "m": "Bases",
+       "cant": 4,
+       "d": "RUEDAS GCF3"
+      },
+      {
+       "m": "Soporte",
+       "cant": 2,
+       "d": "CIERRES SOBREPONER"
+      },
+      {
+       "m": "Bisagras",
+       "cant": 2,
+       "d": "BISAGRAS LC-BC07"
+      },
+      {
+       "m": "Otros",
+       "cant": null,
+       "d": "BISAGRA PIANO"
+      },
+      {
+       "m": "Otros",
+       "cant": null,
+       "d": "ANGULO MEDIA"
+      },
+      {
+       "m": "Otros",
+       "cant": null,
+       "d": "MADERA Y PINTURA MUEBLE"
+      },
+      {
+       "m": "Otros",
+       "cant": null,
+       "d": "GATO HIDRAULICO"
+      }
+     ],
+     "notas": [],
+     "medidas": []
+    },
+    "lineas": [
+     {
+      "cant": 3,
+      "desc": "CASE PARA 2 LINE ARRAY G210 VERTICAL"
+     },
+     {
+      "cant": 2,
+      "desc": "CASE INDIVIDUAL PARA BAJO SOUNDKING GL218ES"
+     },
+     {
+      "cant": 1,
+      "desc": "CASE CONVERTIBLE EN MESA HIDRAULICO PARA MIDAS M32 LIVE"
+     },
+     {
+      "cant": 1,
+      "desc": "BAUL ORGANIZADOR CMC 100x60x60 - CABLES Y LOGISTICA"
+     }
+    ]
+   }
+  },
+  {
+   "seccion": "Órdenes semana 42",
+   "operario": "",
+   "cliente": "Company M.",
+   "orden": "6792",
+   "cant": 1.0,
+   "desc": "BAUL ORGANIZADOR CMC 100x60x60 - CABLES Y LOGISTICA",
+   "obs": "",
+   "nota2": "",
+   "pasos": [
+    {
+     "p": "Trazo",
+     "e": ""
+    },
+    {
+     "p": "Spire",
+     "e": ""
+    },
+    {
+     "p": "Mecanizado",
+     "e": ""
+    },
+    {
+     "p": "Vectores",
+     "e": ""
+    },
+    {
+     "p": "Ruteado",
+     "e": ""
+    },
+    {
+     "p": "Grabar/Estampar",
+     "e": ""
+    },
+    {
+     "p": "Corte aluminio",
+     "e": ""
+    },
+    {
+     "p": "Alistar accesorios",
+     "e": ""
+    },
+    {
+     "p": "Ensamble",
+     "e": ""
+    },
+    {
+     "p": "Acabado final",
+     "e": ""
+    }
+   ],
+   "pos": 58,
+   "ficha": {
+    "fecha": "OCTUBRE 14 2026",
+    "embalaje": "CARTON",
+    "archivo": "OP W42",
+    "item": {
+     "titulo": "BAUL ORGANIZADOR CMC 100x60x60 - CABLES Y LOGISTICA",
+     "cant_t": "1",
+     "mats": [
+      {
+       "m": "Armado",
+       "cant": null,
+       "d": "TRIPLEX 12 MM"
+      },
+      {
+       "m": "Acabado",
+       "cant": null,
+       "d": "FORMICA NM"
+      },
+      {
+       "m": "Hibrido",
+       "cant": null,
+       "d": "CMC"
+      },
+      {
+       "m": "Angulo",
+       "cant": null,
+       "d": "CMC"
+      },
+      {
+       "m": "Cierres",
+       "cant": 2,
+       "d": "LC-S11 MED"
+      },
+      {
+       "m": "Manijas",
+       "cant": 4,
+       "d": "LC-LS06 INCRUSTAR"
+      },
+      {
+       "m": "Esquineras",
+       "cant": 8,
+       "d": "LC-QB09 PE"
+      },
+      {
+       "m": "Abrazaderas",
+       "cant": 8,
+       "d": "LC-ZJM08 MED"
+      },
+      {
+       "m": "Bases",
+       "cant": 4,
+       "d": "RUEDAS GCF4"
+      },
+      {
+       "m": "Soporte",
+       "cant": 4,
+       "d": "LC-LW05 PORTARUEDAS"
+      },
+      {
+       "m": "Bisgras",
+       "cant": 2,
+       "d": "LC-BC07"
+      }
+     ],
+     "notas": [],
+     "medidas": []
+    },
+    "lineas": [
+     {
+      "cant": 3,
+      "desc": "CASE PARA 2 LINE ARRAY G210 VERTICAL"
+     },
+     {
+      "cant": 2,
+      "desc": "CASE INDIVIDUAL PARA BAJO SOUNDKING GL218ES"
+     },
+     {
+      "cant": 1,
+      "desc": "CASE CONVERTIBLE EN MESA HIDRAULICO PARA MIDAS M32 LIVE"
+     },
+     {
+      "cant": 1,
+      "desc": "BAUL ORGANIZADOR CMC 100x60x60 - CABLES Y LOGISTICA"
+     }
+    ]
+   }
+  },
+  {
+   "seccion": "Órdenes semana 42",
+   "operario": "",
+   "cliente": "Mte",
+   "orden": "6793",
+   "cant": 1.0,
+   "desc": "CASE SLIM MIDAS M32R ESTANDAR",
+   "obs": "",
+   "nota2": "",
+   "pasos": [
+    {
+     "p": "Trazo",
+     "e": ""
+    },
+    {
+     "p": "Spire",
+     "e": ""
+    },
+    {
+     "p": "Mecanizado",
+     "e": ""
+    },
+    {
+     "p": "Vectores",
+     "e": ""
+    },
+    {
+     "p": "Ruteado",
+     "e": ""
+    },
+    {
+     "p": "Grabar/Estampar",
+     "e": ""
+    },
+    {
+     "p": "Corte aluminio",
+     "e": ""
+    },
+    {
+     "p": "Alistar accesorios",
+     "e": ""
+    },
+    {
+     "p": "Ensamble",
+     "e": ""
+    },
+    {
+     "p": "Acabado final",
+     "e": ""
+    }
+   ],
+   "pos": 59,
+   "ficha": {
+    "fecha": "OCTUBRE 15 2026",
+    "embalaje": "PLASTICO",
+    "archivo": "OP W42",
+    "item": {
+     "titulo": "CASE SLIM MIDAS M32R ESTANDAR",
+     "cant_t": "1",
+     "mats": [
+      {
+       "m": "Armado",
+       "cant": null,
+       "d": "TRIPLEX 12 LAMINADO"
+      },
+      {
+       "m": "Acabado",
+       "cant": null,
+       "d": "NO APLICA"
+      },
+      {
+       "m": "Hibrido",
+       "cant": null,
+       "d": "CMC"
+      },
+      {
+       "m": "Angulo",
+       "cant": null,
+       "d": "CMC"
+      },
+      {
+       "m": "Cierres",
+       "cant": 4,
+       "d": "LC-S11 MED"
+      },
+      {
+       "m": "Manijas",
+       "cant": 2,
+       "d": "LC-LS06 INCRUSTAR"
+      },
+      {
+       "m": "Esquineras",
+       "cant": 8,
+       "d": "LC-QB09 PE"
+      },
+      {
+       "m": "Abrazaderas",
+       "cant": 8,
+       "d": "LC-ZJM08 MED"
+      },
+      {
+       "m": "Bases",
+       "cant": 4,
+       "d": "CAUCHOS"
+      }
+     ],
+     "notas": [],
+     "medidas": []
+    },
+    "lineas": [
+     {
+      "cant": 1,
+      "desc": "CASE SLIM MIDAS M32R ESTANDAR"
+     },
+     {
+      "cant": 1,
+      "desc": "CASE CONTROLADOR PIONEER XDJ-RX3 CON RUEDAS Y BASE PARA PORTATIL"
+     },
+     {
+      "cant": 2,
+      "desc": "CASE CONTROLADOR PIONEER XDJ-RR ESTANDAR"
+     }
+    ]
+   }
+  },
+  {
+   "seccion": "Órdenes semana 42",
+   "operario": "",
+   "cliente": "Mte",
+   "orden": "6793",
+   "cant": 1.0,
+   "desc": "CASE CONTROLADOR PIONEER XDJ-RX3 CON RUEDAS Y BASE PARA PORTATIL",
+   "obs": "",
+   "nota2": "",
+   "pasos": [
+    {
+     "p": "Trazo",
+     "e": ""
+    },
+    {
+     "p": "Spire",
+     "e": ""
+    },
+    {
+     "p": "Mecanizado",
+     "e": ""
+    },
+    {
+     "p": "Vectores",
+     "e": ""
+    },
+    {
+     "p": "Ruteado",
+     "e": ""
+    },
+    {
+     "p": "Grabar/Estampar",
+     "e": ""
+    },
+    {
+     "p": "Corte aluminio",
+     "e": ""
+    },
+    {
+     "p": "Alistar accesorios",
+     "e": ""
+    },
+    {
+     "p": "Ensamble",
+     "e": ""
+    },
+    {
+     "p": "Acabado final",
+     "e": ""
+    }
+   ],
+   "pos": 60,
+   "ficha": {
+    "fecha": "OCTUBRE 15 2026",
+    "embalaje": "PLASTICO",
+    "archivo": "OP W42",
+    "item": {
+     "titulo": "CASE CONTROLADOR PIONEER XDJ-RX3 CON RUEDAS Y BASE PARA PORTATIL",
+     "cant_t": "1",
+     "mats": [
+      {
+       "m": "Armado",
+       "cant": null,
+       "d": "TRIPLEX 9 LAM HEX"
+      },
+      {
+       "m": "Acabado",
+       "cant": null,
+       "d": "NO APLICA"
+      },
+      {
+       "m": "Hibrido",
+       "cant": null,
+       "d": "CMC"
+      },
+      {
+       "m": "Angulo",
+       "cant": null,
+       "d": "CMC"
+      },
+      {
+       "m": "Cierres",
+       "cant": null,
+       "d": "LC-S11 MED"
+      },
+      {
+       "m": "Manijas",
+       "cant": 2,
+       "d": "LC-LS06 INCRUSTAR"
+      },
+      {
+       "m": "Esquineras",
+       "cant": 8,
+       "d": "LC-QB09 PE"
+      },
+      {
+       "m": "Abrazaderas",
+       "cant": 8,
+       "d": "LC-ZJM08 MED"
+      },
+      {
+       "m": "Bases",
+       "cant": 4,
+       "d": "CAUCHOS"
+      },
+      {
+       "m": "Otros",
+       "cant": null,
+       "d": "RIEL PESADO 30"
+      },
+      {
+       "m": "Otros",
+       "cant": null,
+       "d": "ANGULO DE MEDIA"
+      }
+     ],
+     "notas": [],
+     "medidas": []
+    },
+    "lineas": [
+     {
+      "cant": 1,
+      "desc": "CASE SLIM MIDAS M32R ESTANDAR"
+     },
+     {
+      "cant": 1,
+      "desc": "CASE CONTROLADOR PIONEER XDJ-RX3 CON RUEDAS Y BASE PARA PORTATIL"
+     },
+     {
+      "cant": 2,
+      "desc": "CASE CONTROLADOR PIONEER XDJ-RR ESTANDAR"
+     }
+    ]
+   }
+  },
+  {
+   "seccion": "Órdenes semana 42",
+   "operario": "",
+   "cliente": "Mte",
+   "orden": "6793",
+   "cant": 2.0,
+   "desc": "CASE CONTROLADOR PIONEER XDJ-RR ESTANDAR",
+   "obs": "",
+   "nota2": "",
+   "pasos": [
+    {
+     "p": "Trazo",
+     "e": ""
+    },
+    {
+     "p": "Spire",
+     "e": ""
+    },
+    {
+     "p": "Mecanizado",
+     "e": ""
+    },
+    {
+     "p": "Vectores",
+     "e": ""
+    },
+    {
+     "p": "Ruteado",
+     "e": ""
+    },
+    {
+     "p": "Grabar/Estampar",
+     "e": ""
+    },
+    {
+     "p": "Corte aluminio",
+     "e": ""
+    },
+    {
+     "p": "Alistar accesorios",
+     "e": ""
+    },
+    {
+     "p": "Ensamble",
+     "e": ""
+    },
+    {
+     "p": "Acabado final",
+     "e": ""
+    }
+   ],
+   "pos": 61,
+   "ficha": {
+    "fecha": "OCTUBRE 15 2026",
+    "embalaje": "PLASTICO",
+    "archivo": "OP W42",
+    "item": {
+     "titulo": "CASE CONTROLADOR PIONEER XDJ-RR ESTANDAR",
+     "cant_t": "2",
+     "mats": [
+      {
+       "m": "Armado",
+       "cant": null,
+       "d": "TRIPLEX 9 LAM HEX"
+      },
+      {
+       "m": "Acabado",
+       "cant": null,
+       "d": "NO APLICA"
+      },
+      {
+       "m": "Hibrido",
+       "cant": null,
+       "d": "CMC"
+      },
+      {
+       "m": "Angulo",
+       "cant": null,
+       "d": "CMC"
+      },
+      {
+       "m": "Cierres",
+       "cant": null,
+       "d": "LC-S11 MED"
+      },
+      {
+       "m": "Manijas",
+       "cant": 2,
+       "d": "LC-LS06 INCRUSTAR"
+      },
+      {
+       "m": "Esquineras",
+       "cant": 8,
+       "d": "LC-QB09 PE"
+      },
+      {
+       "m": "Abrazaderas",
+       "cant": 8,
+       "d": "LC-ZJM08 MED"
+      },
+      {
+       "m": "Bases",
+       "cant": 4,
+       "d": "CAUCHOS"
+      }
+     ],
+     "notas": [],
+     "medidas": []
+    },
+    "lineas": [
+     {
+      "cant": 1,
+      "desc": "CASE SLIM MIDAS M32R ESTANDAR"
+     },
+     {
+      "cant": 1,
+      "desc": "CASE CONTROLADOR PIONEER XDJ-RX3 CON RUEDAS Y BASE PARA PORTATIL"
+     },
+     {
+      "cant": 2,
+      "desc": "CASE CONTROLADOR PIONEER XDJ-RR ESTANDAR"
+     }
+    ]
+   }
+  },
+  {
+   "seccion": "Órdenes semana 42",
+   "operario": "",
+   "cliente": "Levo",
+   "orden": "6794",
+   "cant": 1.0,
+   "desc": "CASE PARA 2 BOSE L1 PRO8",
+   "obs": "",
+   "nota2": "",
+   "pasos": [
+    {
+     "p": "Trazo",
+     "e": ""
+    },
+    {
+     "p": "Spire",
+     "e": ""
+    },
+    {
+     "p": "Mecanizado",
+     "e": ""
+    },
+    {
+     "p": "Vectores",
+     "e": ""
+    },
+    {
+     "p": "Ruteado",
+     "e": ""
+    },
+    {
+     "p": "Grabar/Estampar",
+     "e": ""
+    },
+    {
+     "p": "Corte aluminio",
+     "e": ""
+    },
+    {
+     "p": "Alistar accesorios",
+     "e": ""
+    },
+    {
+     "p": "Ensamble",
+     "e": ""
+    },
+    {
+     "p": "Acabado final",
+     "e": ""
+    }
+   ],
+   "pos": 62,
+   "ficha": {
+    "fecha": "OCTUBRE 16 2026",
+    "embalaje": "CARTON",
+    "archivo": "OP W42",
+    "item": {
+     "titulo": "CASE PARA 2 BOSE L1 PRO8",
+     "cant_t": "1",
+     "mats": [
+      {
+       "m": "Armado",
+       "cant": null,
+       "d": "TRIPLEX 9 LAM HEX"
+      },
+      {
+       "m": "Acabado",
+       "cant": null,
+       "d": "NO APLICA"
+      },
+      {
+       "m": "Hibrido",
+       "cant": null,
+       "d": "CMC"
+      },
+      {
+       "m": "Angulo",
+       "cant": null,
+       "d": "CMC"
+      },
+      {
+       "m": "Cierres",
+       "cant": 2,
+       "d": "LC-S11 MED"
+      },
+      {
+       "m": "Manijas",
+       "cant": 4,
+       "d": "LC-LS06 INCRUSTAR"
+      },
+      {
+       "m": "Esquineras",
+       "cant": 8,
+       "d": "LC-QB09 PE"
+      },
+      {
+       "m": "Abrazaderas",
+       "cant": 8,
+       "d": "LC-ZJM08 MED"
+      },
+      {
+       "m": "Bases",
+       "cant": 4,
+       "d": "RUEDAS GCF4"
+      },
+      {
+       "m": "Soporte",
+       "cant": 4,
+       "d": "LC-LW05 PORTARUEDAS"
+      },
+      {
+       "m": "Bisagras",
+       "cant": 2,
+       "d": "LC-BC07"
+      },
+      {
+       "m": "Otros",
+       "cant": 1,
+       "d": "REATA 2\""
+      }
+     ],
+     "notas": [],
+     "medidas": []
+    },
+    "lineas": [
+     {
+      "cant": 1,
+      "desc": "CASE PARA 2 BOSE L1 PRO8"
+     }
+    ]
+   }
+  },
+  {
+   "seccion": "Órdenes semana 42",
+   "operario": "",
+   "cliente": "Marcao C.",
+   "orden": "6795",
+   "cant": 1.0,
+   "desc": "GAVETERO 4 GAVETAS",
+   "obs": "",
+   "nota2": "",
+   "pasos": [
+    {
+     "p": "Trazo",
+     "e": ""
+    },
+    {
+     "p": "Spire",
+     "e": ""
+    },
+    {
+     "p": "Mecanizado",
+     "e": ""
+    },
+    {
+     "p": "Vectores",
+     "e": ""
+    },
+    {
+     "p": "Ruteado",
+     "e": ""
+    },
+    {
+     "p": "Grabar/Estampar",
+     "e": ""
+    },
+    {
+     "p": "Corte aluminio",
+     "e": ""
+    },
+    {
+     "p": "Alistar accesorios",
+     "e": ""
+    },
+    {
+     "p": "Ensamble",
+     "e": ""
+    },
+    {
+     "p": "Acabado final",
+     "e": ""
+    }
+   ],
+   "pos": 63,
+   "ficha": {
+    "fecha": "OCTUBRE 16 2026",
+    "embalaje": "PLASTICO",
+    "archivo": "OP W42",
+    "item": {
+     "titulo": "GAVETERO 4 GAVETAS",
+     "cant_t": "1",
+     "mats": [
+      {
+       "m": "Armado",
+       "cant": null,
+       "d": "TRIPLEX 12 LAMINADO"
+      },
+      {
+       "m": "Acabado",
+       "cant": null,
+       "d": "NO APLICA"
+      },
+      {
+       "m": "Hibrido",
+       "cant": null,
+       "d": "CMC"
+      },
+      {
+       "m": "Angulo",
+       "cant": null,
+       "d": "CMC"
+      },
+      {
+       "m": "Cierres",
+       "cant": 1,
+       "d": "PENN CON PORTACANDADO"
+      },
+      {
+       "m": "Manijas",
+       "cant": 4,
+       "d": "LC-LS06 INCRUSTAR ( 2 LATERALES)"
+      },
+      {
+       "m": "Abullonado",
+       "cant": null,
+       "d": "PLANTIEVA"
+      },
+      {
+       "m": "Esquineras",
+       "cant": 8,
+       "d": "LC-QB09 PE"
+      },
+      {
+       "m": "Abrazaderas",
+       "cant": 8,
+       "d": "LC-ZJM08 MED"
+      },
+      {
+       "m": "Bases",
+       "cant": 4,
+       "d": "RUEDAS GCF3"
+      },
+      {
+       "m": "Bisagras",
+       "cant": 2,
+       "d": "LC-BC07 (TAPA FRONTAL ABATIBLE)"
+      },
+      {
+       "m": "Otros",
+       "cant": 4,
+       "d": "RIEL PESADO 40"
+      },
+      {
+       "m": "Otros",
+       "cant": null,
+       "d": "MANIJAS INCRUSTADAS PARA GAVETAS"
+      }
+     ],
+     "notas": [
+      "SIN GRABADO. Gavetas internas: 3 de 48x38x13 cm y 1 inferior de 48x38x22 cm. Tapa frontal con bisagra."
+     ],
+     "medidas": []
+    },
+    "lineas": [
+     {
+      "cant": 1,
+      "desc": "GAVETERO 4 GAVETAS"
+     }
+    ]
+   }
+  },
+  {
+   "seccion": "Órdenes semana 42",
+   "operario": "",
+   "cliente": "Yuliano",
+   "orden": "6796",
+   "cant": 1.0,
+   "desc": "RACK 14U20",
+   "obs": "",
+   "nota2": "",
+   "pasos": [
+    {
+     "p": "Trazo",
+     "e": ""
+    },
+    {
+     "p": "Spire",
+     "e": ""
+    },
+    {
+     "p": "Mecanizado",
+     "e": ""
+    },
+    {
+     "p": "Vectores",
+     "e": ""
+    },
+    {
+     "p": "Ruteado",
+     "e": ""
+    },
+    {
+     "p": "Grabar/Estampar",
+     "e": ""
+    },
+    {
+     "p": "Corte aluminio",
+     "e": ""
+    },
+    {
+     "p": "Alistar accesorios",
+     "e": ""
+    },
+    {
+     "p": "Ensamble",
+     "e": ""
+    },
+    {
+     "p": "Acabado final",
+     "e": ""
+    }
+   ],
+   "pos": 64,
+   "ficha": {
+    "fecha": "OCTUBRE 17 2026",
+    "embalaje": "CARTON",
+    "archivo": "OP W42",
+    "item": {
+     "titulo": "RACK 14U20",
+     "cant_t": "1",
+     "mats": [
+      {
+       "m": "Armado",
+       "cant": 1,
+       "d": "TRIPLEX 12"
+      },
+      {
+       "m": "Acabado",
+       "cant": 1,
+       "d": "FORMICA NEGRO"
+      },
+      {
+       "m": "Hibrido",
+       "cant": null,
+       "d": "HIBRIDO CMC"
+      },
+      {
+       "m": "Angulo",
+       "cant": null,
+       "d": "ANGULO CMC"
+      },
+      {
+       "m": "Cierres",
+       "cant": 4,
+       "d": "LC-S21 GRA"
+      },
+      {
+       "m": "Manijas",
+       "cant": 4,
+       "d": "INCRUSTAR MTE NIQ"
+      },
+      {
+       "m": "Esquineras",
+       "cant": 8,
+       "d": "ESQUINERA PIRAMIDE MED C1080Z"
+      },
+      {
+       "m": "Abrazaderas",
+       "cant": 16,
+       "d": "L/S P430001"
+      },
+      {
+       "m": "Bases",
+       "cant": 4,
+       "d": "RUEDAS GCF4"
+      },
+      {
+       "m": "Angulo Rack Delantero",
+       "cant": null,
+       "d": "ANGULO RACK D/T"
+      }
+     ],
+     "notas": [
+      "REPLICA DE LA OP 5131 (RACK 14U20). MEDIDAS EXTERNAS 53,4 x 67,3 x 83 CM."
+     ],
+     "medidas": []
+    },
+    "lineas": [
+     {
+      "cant": 1,
+      "desc": "RACK 14U20"
+     }
+    ]
+   }
+  },
+  {
+   "seccion": "Órdenes semana 42",
+   "operario": "",
+   "cliente": "Ivan P.",
+   "orden": "6797",
+   "cant": 1.0,
+   "desc": "RACK 4U + 2 GAVETAS 2U",
+   "obs": "",
+   "nota2": "",
+   "pasos": [
+    {
+     "p": "Trazo",
+     "e": ""
+    },
+    {
+     "p": "Spire",
+     "e": ""
+    },
+    {
+     "p": "Mecanizado",
+     "e": ""
+    },
+    {
+     "p": "Vectores",
+     "e": ""
+    },
+    {
+     "p": "Ruteado",
+     "e": ""
+    },
+    {
+     "p": "Grabar/Estampar",
+     "e": ""
+    },
+    {
+     "p": "Corte aluminio",
+     "e": ""
+    },
+    {
+     "p": "Alistar accesorios",
+     "e": ""
+    },
+    {
+     "p": "Ensamble",
+     "e": ""
+    },
+    {
+     "p": "Acabado final",
+     "e": ""
+    }
+   ],
+   "pos": 65,
+   "ficha": {
+    "fecha": "OCTUBRE 17 2026",
+    "embalaje": "CARTON",
+    "archivo": "OP W42",
+    "item": {
+     "titulo": "RACK 4U + 2 GAVETAS 2U",
+     "cant_t": "1",
+     "mats": [
+      {
+       "m": "Armado",
+       "cant": null,
+       "d": "TRIPLEX 9 LAMINADO"
+      },
+      {
+       "m": "Acabado",
+       "cant": null,
+       "d": "NO APLICA"
+      },
+      {
+       "m": "Hibrido",
+       "cant": null,
+       "d": "CMC"
+      },
+      {
+       "m": "Angulo",
+       "cant": null,
+       "d": "CMC"
+      },
+      {
+       "m": "Cierres",
+       "cant": 4,
+       "d": "LC-S11 MED"
+      },
+      {
+       "m": "Manijas",
+       "cant": 2,
+       "d": "LC-LS06 INCRUSTAR"
+      },
+      {
+       "m": "Abullonado",
+       "cant": null,
+       "d": "YUMBOLON #10 + BLOQUE DE ESPUMA PARA CONTORNEAR"
+      },
+      {
+       "m": "Esquineras",
+       "cant": 8,
+       "d": "LC-QB09 PE"
+      },
+      {
+       "m": "Abrazaderas",
+       "cant": 16,
+       "d": "LC-ZJM08 MED"
+      },
+      {
+       "m": "Bases",
+       "cant": 4,
+       "d": "CAUCHOS"
+      },
+      {
+       "m": "Angulo Rack",
+       "cant": null,
+       "d": "ANGULO RACK T/D"
+      },
+      {
+       "m": "Otros",
+       "cant": 2,
+       "d": "RIEL PESAGO GAVETA 30"
+      },
+      {
+       "m": "Otros",
+       "cant": 2,
+       "d": "MANIJAS GAVETA"
+      }
+     ],
+     "notas": [],
+     "medidas": []
+    },
+    "lineas": [
+     {
+      "cant": 1,
+      "desc": "RACK 4U + 2 GAVETAS 2U"
+     }
+    ]
+   }
+  },
+  {
+   "seccion": "Órdenes semana 42",
+   "operario": "",
+   "cliente": "Cyc",
+   "orden": "6798",
+   "cant": 1.0,
+   "desc": "RACK 14U22",
+   "obs": "",
+   "nota2": "",
+   "pasos": [
+    {
+     "p": "Trazo",
+     "e": ""
+    },
+    {
+     "p": "Spire",
+     "e": ""
+    },
+    {
+     "p": "Mecanizado",
+     "e": ""
+    },
+    {
+     "p": "Vectores",
+     "e": ""
+    },
+    {
+     "p": "Ruteado",
+     "e": ""
+    },
+    {
+     "p": "Grabar/Estampar",
+     "e": ""
+    },
+    {
+     "p": "Corte aluminio",
+     "e": ""
+    },
+    {
+     "p": "Alistar accesorios",
+     "e": ""
+    },
+    {
+     "p": "Ensamble",
+     "e": ""
+    },
+    {
+     "p": "Acabado final",
+     "e": ""
+    }
+   ],
+   "pos": 66,
+   "ficha": {
+    "fecha": "OCTUBRE 17 2026",
+    "embalaje": "CARTON",
+    "archivo": "OP W42",
+    "item": {
+     "titulo": "RACK 14U22",
+     "cant_t": "1",
+     "mats": [
+      {
+       "m": "Armado",
+       "cant": null,
+       "d": "TRIPLEX 12 MM"
+      },
+      {
+       "m": "Hibrido",
+       "cant": null,
+       "d": "CMC"
+      },
+      {
+       "m": "Angulo",
+       "cant": null,
+       "d": "CMC"
+      },
+      {
+       "m": "Cierres",
+       "cant": 8,
+       "d": "LC-S11 MED"
+      },
+      {
+       "m": "Manijas",
+       "cant": 4,
+       "d": "LC-LS06 INCRUSTAR"
+      },
+      {
+       "m": "Abullonado",
+       "cant": null,
+       "d": "YUMBOLON #10"
+      },
+      {
+       "m": "Esquineras",
+       "cant": 8,
+       "d": "LC-QB09 PE"
+      },
+      {
+       "m": "Abrazaderas",
+       "cant": 16,
+       "d": "LC-ZJM08 MED"
+      },
+      {
+       "m": "Bases",
+       "cant": 4,
+       "d": "RUEDAS GCF4"
+      },
+      {
+       "m": "Otros",
+       "cant": null,
+       "d": "ANGULO RACK T/D"
+      }
+     ],
+     "notas": [],
+     "medidas": []
+    },
+    "lineas": [
+     {
+      "cant": 1,
+      "desc": "RACK 14U22"
+     },
+     {
+      "cant": 1,
+      "desc": "RACK 10U18"
+     },
+     {
+      "cant": 1,
+      "desc": "CASE PARA CONTROLADOR PIONEER XDJ AZ NEGRO CON RUEDAS INCRUSTADAS"
+     }
+    ]
+   }
+  },
+  {
+   "seccion": "Órdenes semana 42",
+   "operario": "",
+   "cliente": "Cyc",
+   "orden": "6798",
+   "cant": 1.0,
+   "desc": "RACK 10U18",
+   "obs": "",
+   "nota2": "",
+   "pasos": [
+    {
+     "p": "Trazo",
+     "e": ""
+    },
+    {
+     "p": "Spire",
+     "e": ""
+    },
+    {
+     "p": "Mecanizado",
+     "e": ""
+    },
+    {
+     "p": "Vectores",
+     "e": ""
+    },
+    {
+     "p": "Ruteado",
+     "e": ""
+    },
+    {
+     "p": "Grabar/Estampar",
+     "e": ""
+    },
+    {
+     "p": "Corte aluminio",
+     "e": ""
+    },
+    {
+     "p": "Alistar accesorios",
+     "e": ""
+    },
+    {
+     "p": "Ensamble",
+     "e": ""
+    },
+    {
+     "p": "Acabado final",
+     "e": ""
+    }
+   ],
+   "pos": 67,
+   "ficha": {
+    "fecha": "OCTUBRE 17 2026",
+    "embalaje": "CARTON",
+    "archivo": "OP W42",
+    "item": {
+     "titulo": "RACK 10U18",
+     "cant_t": "1",
+     "mats": [
+      {
+       "m": "Armado",
+       "cant": null,
+       "d": "TRIPLEX 12 MM"
+      },
+      {
+       "m": "Acabado",
+       "cant": null,
+       "d": "FORMICA NEGRA"
+      },
+      {
+       "m": "Hibrido",
+       "cant": null,
+       "d": "CMC"
+      },
+      {
+       "m": "Angulo",
+       "cant": null,
+       "d": "CMC"
+      },
+      {
+       "m": "Cierres",
+       "cant": 4,
+       "d": "LC-S11 MED"
+      },
+      {
+       "m": "Manijas",
+       "cant": 2,
+       "d": "LC-LS06 INCRUSTAR"
+      },
+      {
+       "m": "Abullonado",
+       "cant": null,
+       "d": "YUMBOLON #10"
+      },
+      {
+       "m": "Esquineras",
+       "cant": 8,
+       "d": "LC-QB09 PE"
+      },
+      {
+       "m": "Abrazaderas",
+       "cant": 16,
+       "d": "LC-ZJM08 MED"
+      },
+      {
+       "m": "Bases",
+       "cant": 4,
+       "d": "RUEDAS GCF4"
+      },
+      {
+       "m": "Angulo Rack",
+       "cant": 0.92,
+       "d": "ANGULO RACK D"
+      }
+     ],
+     "notas": [],
+     "medidas": []
+    },
+    "lineas": [
+     {
+      "cant": 1,
+      "desc": "RACK 14U22"
+     },
+     {
+      "cant": 1,
+      "desc": "RACK 10U18"
+     },
+     {
+      "cant": 1,
+      "desc": "CASE PARA CONTROLADOR PIONEER XDJ AZ NEGRO CON RUEDAS INCRUSTADAS"
+     }
+    ]
+   }
+  },
+  {
+   "seccion": "Órdenes semana 42",
+   "operario": "",
+   "cliente": "Cyc",
+   "orden": "6798",
+   "cant": 1.0,
+   "desc": "CASE PARA CONTROLADOR PIONEER XDJ AZ NEGRO CON RUEDAS INCRUSTADAS",
+   "obs": "",
+   "nota2": "",
+   "pasos": [
+    {
+     "p": "Trazo",
+     "e": ""
+    },
+    {
+     "p": "Spire",
+     "e": ""
+    },
+    {
+     "p": "Mecanizado",
+     "e": ""
+    },
+    {
+     "p": "Vectores",
+     "e": ""
+    },
+    {
+     "p": "Ruteado",
+     "e": ""
+    },
+    {
+     "p": "Grabar/Estampar",
+     "e": ""
+    },
+    {
+     "p": "Corte aluminio",
+     "e": ""
+    },
+    {
+     "p": "Alistar accesorios",
+     "e": ""
+    },
+    {
+     "p": "Ensamble",
+     "e": ""
+    },
+    {
+     "p": "Acabado final",
+     "e": ""
+    }
+   ],
+   "pos": 68,
+   "ficha": {
+    "fecha": "OCTUBRE 17 2026",
+    "embalaje": "CARTON",
+    "archivo": "OP W42",
+    "item": {
+     "titulo": "CASE PARA CONTROLADOR PIONEER XDJ AZ NEGRO CON RUEDAS INCRUSTADAS",
+     "cant_t": "1",
+     "mats": [
+      {
+       "m": "Armado",
+       "cant": null,
+       "d": "TRIPLEX 12 MM"
+      },
+      {
+       "m": "Acabado",
+       "cant": null,
+       "d": "FORMICA NEGRA"
+      },
+      {
+       "m": "Hibrido",
+       "cant": null,
+       "d": "CMC"
+      },
+      {
+       "m": "Angulo",
+       "cant": null,
+       "d": "CMC"
+      },
+      {
+       "m": "Cierres",
+       "cant": 4,
+       "d": "LC-S11 MED"
+      },
+      {
+       "m": "Manijas",
+       "cant": 2,
+       "d": "LC-LS06 INCRUSTAR"
+      },
+      {
+       "m": "Abullonado",
+       "cant": null,
+       "d": "EVA"
+      },
+      {
+       "m": "Esquineras",
+       "cant": 8,
+       "d": "LC-QB09 PE"
+      },
+      {
+       "m": "Abrazaderas",
+       "cant": 8,
+       "d": "LC-ZJM08 MED"
+      },
+      {
+       "m": "Bases",
+       "cant": 4,
+       "d": "CAUCHOS"
+      },
+      {
+       "m": "Ruedas",
+       "cant": 2,
+       "d": "RUEDAS INCRUSTAR LC-PLZ12"
+      }
+     ],
+     "notas": [],
+     "medidas": []
+    },
+    "lineas": [
+     {
+      "cant": 1,
+      "desc": "RACK 14U22"
+     },
+     {
+      "cant": 1,
+      "desc": "RACK 10U18"
+     },
+     {
+      "cant": 1,
+      "desc": "CASE PARA CONTROLADOR PIONEER XDJ AZ NEGRO CON RUEDAS INCRUSTADAS"
+     }
+    ]
+   }
+  },
+  {
+   "seccion": "Órdenes semana 42",
+   "operario": "",
+   "cliente": "Juan C. R.",
+   "orden": "6799",
+   "cant": 4.0,
+   "desc": "CASES PARA 2 AVANDA 210",
+   "obs": "",
+   "nota2": "",
+   "pasos": [
+    {
+     "p": "Trazo",
+     "e": ""
+    },
+    {
+     "p": "Spire",
+     "e": ""
+    },
+    {
+     "p": "Mecanizado",
+     "e": ""
+    },
+    {
+     "p": "Vectores",
+     "e": ""
+    },
+    {
+     "p": "Ruteado",
+     "e": ""
+    },
+    {
+     "p": "Grabar/Estampar",
+     "e": ""
+    },
+    {
+     "p": "Corte aluminio",
+     "e": ""
+    },
+    {
+     "p": "Alistar accesorios",
+     "e": ""
+    },
+    {
+     "p": "Ensamble",
+     "e": ""
+    },
+    {
+     "p": "Acabado final",
+     "e": ""
+    }
+   ],
+   "pos": 69,
+   "ficha": {
+    "fecha": "OCTUBRE 17 2026",
+    "embalaje": "CARTON",
+    "archivo": "OP W42",
+    "item": {
+     "titulo": "CASES PARA 2 AVANDA 210",
+     "cant_t": "4",
+     "mats": [
+      {
+       "m": "Armado",
+       "cant": null,
+       "d": "TRIPLEX 12 MM"
+      },
+      {
+       "m": "Acabado",
+       "cant": null,
+       "d": "FORMICA NM"
+      },
+      {
+       "m": "Hibrido",
+       "cant": null,
+       "d": "CMC"
+      },
+      {
+       "m": "Angulo",
+       "cant": null,
+       "d": "CMC"
+      },
+      {
+       "m": "Cierres",
+       "cant": 4,
+       "d": "LC-S11 MED"
+      },
+      {
+       "m": "Manijas",
+       "cant": 4,
+       "d": "NIQ MTE"
+      },
+      {
+       "m": "Esquineras",
+       "cant": 8,
+       "d": "LC-QB09 PE"
+      },
+      {
+       "m": "Abrazaderas",
+       "cant": 8,
+       "d": "LC-ZJM08 MED"
+      },
+      {
+       "m": "Bases",
+       "cant": 4,
+       "d": "RUEDAS GCF4"
+      },
+      {
+       "m": "Soporte",
+       "cant": 4,
+       "d": "LC-LW05 PORTARUEDAS"
+      }
+     ],
+     "notas": [],
+     "medidas": []
+    },
+    "lineas": [
+     {
+      "cant": 4,
+      "desc": "CASES PARA 2 AVANDA 210"
+     }
+    ]
+   }
+  },
+  {
+   "seccion": "Órdenes semana 42",
+   "operario": "",
+   "cliente": "Landy",
+   "orden": "6800",
+   "cant": 1.0,
+   "desc": "CASE PARA CONTROLADOR DENON DJ SC LIVE 4 + MIXER MACKIE CON BASE SUPERIOR PARA PORTATIL, SIN RUEDAS",
+   "obs": "",
+   "nota2": "",
+   "pasos": [
+    {
+     "p": "Trazo",
+     "e": ""
+    },
+    {
+     "p": "Spire",
+     "e": ""
+    },
+    {
+     "p": "Mecanizado",
+     "e": ""
+    },
+    {
+     "p": "Vectores",
+     "e": ""
+    },
+    {
+     "p": "Ruteado",
+     "e": ""
+    },
+    {
+     "p": "Grabar/Estampar",
+     "e": ""
+    },
+    {
+     "p": "Corte aluminio",
+     "e": ""
+    },
+    {
+     "p": "Alistar accesorios",
+     "e": ""
+    },
+    {
+     "p": "Ensamble",
+     "e": ""
+    },
+    {
+     "p": "Acabado final",
+     "e": ""
+    }
+   ],
+   "pos": 70,
+   "ficha": {
+    "fecha": "OCTUBRE 17 2026",
+    "embalaje": "PLASTICO",
+    "archivo": "OP W42",
+    "item": {
+     "titulo": "CASE PARA CONTROLADOR DENON DJ SC LIVE 4 + MIXER MACKIE CON BASE SUPERIOR PARA PORTATIL, SIN RUEDAS",
+     "cant_t": "1",
+     "mats": [
+      {
+       "m": "Armado",
+       "cant": null,
+       "d": "TRIPLEX 12 MM"
+      },
+      {
+       "m": "Acabado",
+       "cant": null,
+       "d": "FORMICA BLANCA"
+      },
+      {
+       "m": "Hibrido",
+       "cant": null,
+       "d": "CMC"
+      },
+      {
+       "m": "Angulo",
+       "cant": null,
+       "d": "CMC"
+      },
+      {
+       "m": "Cierres",
+       "cant": 4,
+       "d": "LC-S11 MED"
+      },
+      {
+       "m": "Manijas",
+       "cant": 2,
+       "d": "INCRUSTAR CH LC-LS06"
+      },
+      {
+       "m": "Abullonado",
+       "cant": null,
+       "d": "EVA+YUMBOLON"
+      },
+      {
+       "m": "Esquineras",
+       "cant": 8,
+       "d": "LC-QB09"
+      },
+      {
+       "m": "Abrazaderas",
+       "cant": 8,
+       "d": "LC-ZJM08"
+      },
+      {
+       "m": "Otros",
+       "cant": null,
+       "d": "BISAGRA PIANO"
+      },
+      {
+       "m": "Otros",
+       "cant": null,
+       "d": "ANGULO MEDIA"
+      },
+      {
+       "m": "Otros",
+       "cant": null,
+       "d": "RIEL 30"
+      }
+     ],
+     "notas": [
+      "SIN RUEDAS. Medidas por confirmar. Mackie: modelo por confirmar. Grabado 'LANDY' en la parte superior."
+     ],
+     "medidas": []
+    },
+    "lineas": [
+     {
+      "cant": 1,
+      "desc": "CASE PARA CONTROLADOR DENON DJ SC LIVE 4 + MIXER MACKIE CON BASE SUPERIOR PARA PORTATIL, SIN RUEDAS"
+     }
+    ]
+   }
+  },
+  {
+   "seccion": "Órdenes semana 42",
+   "operario": "",
+   "cliente": "",
+   "orden": "6801",
+   "cant": 1.0,
+   "desc": "CASE INDIVIDUAL DE TOTEM 55",
+   "obs": "",
+   "nota2": "",
+   "pasos": [
+    {
+     "p": "Trazo",
+     "e": ""
+    },
+    {
+     "p": "Spire",
+     "e": ""
+    },
+    {
+     "p": "Mecanizado",
+     "e": ""
+    },
+    {
+     "p": "Vectores",
+     "e": ""
+    },
+    {
+     "p": "Ruteado",
+     "e": ""
+    },
+    {
+     "p": "Grabar/Estampar",
+     "e": ""
+    },
+    {
+     "p": "Corte aluminio",
+     "e": ""
+    },
+    {
+     "p": "Alistar accesorios",
+     "e": ""
+    },
+    {
+     "p": "Ensamble",
+     "e": ""
+    },
+    {
+     "p": "Acabado final",
+     "e": ""
+    }
+   ],
+   "pos": 71,
+   "ficha": {
+    "fecha": "OCTUBRE 9 2026",
+    "embalaje": "CARTON",
+    "archivo": "OP W42",
+    "item": {
+     "titulo": "CASE INDIVIDUAL DE TOTEM 55",
+     "cant_t": "1",
+     "mats": [
+      {
+       "m": "Armado",
+       "cant": null,
+       "d": "TRIPLEX 12 MM"
+      },
+      {
+       "m": "Acabado",
+       "cant": null,
+       "d": "FORMICA NM"
+      },
+      {
+       "m": "Hibrido",
+       "cant": null,
+       "d": "CMC"
+      },
+      {
+       "m": "Angulo",
+       "cant": null,
+       "d": "CMC"
+      },
+      {
+       "m": "Cierres",
+       "cant": 6,
+       "d": "LC-S21 GRA"
+      },
+      {
+       "m": "Manijas",
+       "cant": 12,
+       "d": "LC-LS06 INCRUSTAR"
+      },
+      {
+       "m": "Esquineras",
+       "cant": 8,
+       "d": "LC-QB09 PE"
+      },
+      {
+       "m": "Abrazaderas",
+       "cant": 8,
+       "d": "LC-ZJM08 MED"
+      },
+      {
+       "m": "Bases",
+       "cant": 4,
+       "d": "RUEDAS GCF4"
+      }
+     ],
+     "notas": [],
+     "medidas": []
+    },
+    "lineas": [
+     {
+      "cant": 1,
+      "desc": "CASE INDIVIDUAL DE TOTEM 55"
+     }
+    ]
+   }
   }
  ]
 }
