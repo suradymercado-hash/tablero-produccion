@@ -41,13 +41,29 @@ table{width:100%;border-collapse:collapse;font-size:.92rem}td,th{padding:5px 6px
 .dot{width:12px;height:12px;border-radius:50%;background:var(--line);flex:none}.dot.ok{background:var(--ok)}.dot.x{background:var(--do)}
 .note{background:rgba(240,180,41,.18);border-left:4px solid var(--do);padding:8px 10px;border-radius:6px;margin:6px 0}
 .vacio{color:var(--pl);font-style:italic}
+nav{display:flex;gap:6px;padding:10px 16px 0;background:var(--bg)}
+nav button{border:0;background:none;color:var(--tx);padding:10px 16px;font-size:1rem;cursor:pointer;border-bottom:3px solid transparent;font-weight:600}
+nav button.on{border-bottom-color:var(--az);color:var(--az)}
+@media(prefers-color-scheme:dark){nav button.on{color:#8fb0ff;border-color:#8fb0ff}}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px;margin-bottom:14px}
+.panel h3{margin:0 0 8px;font-size:1rem}.panel p.h{margin:0 0 10px;color:var(--pl);font-size:.85rem}
+.ctl{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px;align-items:center}
+.sc{overflow-x:auto}.heat{border-collapse:collapse;font-size:.78rem}.heat td,.heat th{padding:3px 5px;text-align:center;border:1px solid var(--line);min-width:30px}
+.heat th.l,.heat td.l{text-align:left;position:sticky;left:0;background:var(--card);min-width:84px;font-weight:600}
+.heat th.w{cursor:pointer}.heat th.w.sel{background:var(--az);color:#fff}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:8px;margin-bottom:12px}
+.kpis div{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px}.kpis b{font-size:1.4rem;display:block}.kpis small{color:var(--pl)}
+svg text{fill:currentColor;font-size:10px}
+.row{display:grid;grid-template-columns:70px 1fr auto;gap:8px;padding:6px 0;border-bottom:1px solid var(--line);font-size:.88rem}
 footer{text-align:center;color:var(--pl);font-size:.8rem;padding:20px}
 </style>
 </head>
 <body>
 <header><h1>Tablero de producción · CMC Cases</h1><p id="sub"></p></header>
-<div class="bar"><input id="q" type="search" placeholder="Buscar cliente, OP o producto…"><span id="chips"></span></div>
+<nav><button class="on" data-v="sem">Semana actual</button><button data-v="his">Histórico</button></nav>
+<div class="bar" id="bar"><input id="q" type="search" placeholder="Buscar cliente, OP o producto…"><span id="chips"></span></div>
 <main id="m"></main>
+<main id="h" style="display:none"></main>
 <footer id="f"></footer>
 <dialog id="d"><div class="dh"><button onclick="d.close()">Cerrar</button><b id="dt"></b><div id="ds" style="opacity:.8;font-size:.85rem"></div></div><div class="db" id="db"></div></dialog>
 <script>
@@ -58,7 +74,7 @@ fetch('data.json').then(r=>r.json()).then(j=>{D=j;
  $('chips').innerHTML=ops.map(o=>`<button class="chip ${o==filtro?'on':''}" data-o="${esc(o)}">${esc(o)}</button>`).join(' ');
  $('chips').onclick=e=>{if(e.target.dataset.o){filtro=e.target.dataset.o;[...$('chips').children].forEach(c=>c.classList.toggle('on',c.dataset.o==filtro));draw()}};
  $('sub').textContent='Secuencia semana 42 · fichas OP W41 y W42 · cuando una orden de la semana 42 completa Trazo→Alistar accesorios pasa a Ensamble externo · actualizado '+D.generado;
- $('f').textContent='Orden de arriba hacia abajo = orden de producción. Datos tomados de SECUENCIA 2026 y de las fichas de órdenes.';
+ $('f').textContent='Histórico: SECUENCIA 2026, semanas 1 a 42. Orden de arriba hacia abajo = orden de producción. Datos tomados de SECUENCIA 2026 y de las fichas de órdenes.';
  draw()});
 $('q').oninput=e=>{txt=e.target.value.toLowerCase();draw()};
 function pct(f){const t=f.pasos.length,o=f.pasos.filter(p=>p.e=='ok').length;return Math.round(o/t*100)}
@@ -85,6 +101,58 @@ $('m').onclick=e=>{const c=e.target.closest('.card');if(!c)return;const f=D.fila
    if(it.notas.length)h+='<h3>Notas de la orden</h3>'+it.notas.map(n=>`<div class="note">${esc(n)}</div>`).join('')}
   else h+='<p class="vacio">No se pudo emparejar el ítem con la ficha; revisa el archivo.</p>'}
  $('db').innerHTML=h;d.showModal()};
+
+/* ---------- HISTÓRICO ---------- */
+let HI,hrol='ens',hdesde=1,hsel=null;
+const nav=document.querySelector('nav');
+nav.onclick=e=>{const v=e.target.dataset.v;if(!v)return;[...nav.children].forEach(b=>b.classList.toggle('on',b==e.target));
+ $('m').style.display=v=='sem'?'':'none';$('bar').style.display=v=='sem'?'':'none';$('h').style.display=v=='his'?'':'none';
+ if(v=='his'&&!HI)fetch('hist.json').then(r=>r.json()).then(j=>{HI=j;hsel=j.semanas[j.semanas.length-1].w;drawH()});};
+const nom=p=>p.charAt(0)+p.slice(1).toLowerCase();
+function esPrep(p){return HI.prep.includes(p)}
+function unidades(sem){const m={};for(const f of sem.filas){if(f.s!='prog'||f.n<=0)continue;
+ for(const p of f.p){const prep=esPrep(p);if((hrol=='prep')!=prep)continue;(m[p]=m[p]||{u:0,o:0});m[p].u+=f.n;m[p].o++}}return m}
+function total(sem){let u=0;for(const f of sem.filas)if(f.s=='prog'&&f.n>0&&f.p.some(p=>!esPrep(p)))u+=f.n;return u}
+const NS={prog:'Programación',pausadas:'Pausadas',stock:'Stock cortado',previas:'Semanas previas',nuevas:'Órdenes nuevas'};
+function drawH(){
+ const W=HI.semanas.filter(s=>s.w>=hdesde);
+ const tot=W.map(s=>({w:s.w,tw:s.tw,calc:total(s)}));
+ const vals=tot.map(t=>t.tw??t.calc);
+ const prom=vals.reduce((a,b)=>a+b,0)/vals.length,max=Math.max(...vals),maxW=tot[vals.indexOf(max)].w;
+ const ult=vals.slice(-4).reduce((a,b)=>a+b,0)/Math.min(4,vals.length);
+ const per={};for(const s of W){const u=unidades(s);for(const p in u){(per[p]=per[p]||{t:0,w:0});per[p].t+=u[p].u;per[p].w++}}
+ const pers=Object.keys(per).sort((a,b)=>per[b].t-per[a].t);
+ const maxCell=Math.max(1,...W.flatMap(s=>Object.values(unidades(s)).map(x=>x.u)));
+ const bw=Math.max(10,Math.min(26,Math.floor(640/W.length))),H=140,svgW=W.length*(bw+4)+30;
+ let bars='';tot.forEach((t,i)=>{const v=t.tw??t.calc,h=v/Math.max(max,1)*(H-24);const x=24+i*(bw+4);
+  bars+=`<g style="cursor:pointer" data-w="${t.w}"><rect x="${x}" y="${H-h}" width="${bw}" height="${h}" rx="3" fill="${t.w==hsel?'#F0B429':'#0D3FC4'}"/><text x="${x+bw/2}" y="${H+11}" text-anchor="middle">${t.w}</text></g>`});
+ const ly=H-prom/Math.max(max,1)*(H-24);
+ bars+=`<line x1="24" x2="${svgW}" y1="${ly}" y2="${ly}" stroke="#9AA3AB" stroke-dasharray="4"/><text x="0" y="${ly-3}">prom ${prom.toFixed(0)}</text>`;
+ const sel=HI.semanas.find(s=>s.w==hsel);
+ let h=`<div class="kpis"><div><b>${vals.length}</b><small>semanas analizadas</small></div><div><b>${prom.toFixed(1)}</b><small>unidades/semana (promedio)</small></div><div><b>${ult.toFixed(1)}</b><small>promedio últimas 4 semanas</small></div><div><b>${max}</b><small>mejor semana (S${maxW})</small></div></div>`;
+ h+=`<div class="panel"><h3>Unidades terminadas por semana</h3><p class="h">Total de la hoja (fila TW); si la hoja no lo trae, se calcula sumando las unidades de ensamble/acabado. Toca una barra para ver esa semana. Las órdenes en cantidad 0 son pendientes de semanas previas y no se cuentan.</p>
+ <div class="ctl"><label>Desde semana <select id="hd">${HI.semanas.map(s=>`<option value="${s.w}" ${s.w==hdesde?'selected':''}>${s.w}</option>`).join('')}</select></label></div>
+ <div class="sc"><svg width="${svgW}" height="${H+16}">${bars}</svg></div></div>`;
+ h+=`<div class="panel"><h3>Mano de obra por persona y semana</h3><p class="h">Unidades programadas a cada persona. Una orden con "Daniel/Breiner" cuenta como preparación para Daniel y como ensamble para Breiner.</p>
+ <div class="ctl"><button class="chip ${hrol=='ens'?'on':''}" data-r="ens">Ensamble y acabado</button><button class="chip ${hrol=='prep'?'on':''}" data-r="prep">Preparación (Daniel, Jhan, Tulio)</button></div>
+ <div class="sc"><table class="heat"><tr><th class="l">Persona</th>${W.map(s=>`<th class="w ${s.w==hsel?'sel':''}" data-w="${s.w}">${s.w}</th>`).join('')}<th>Total</th><th>Prom/sem activa</th></tr>`;
+ for(const p of pers){h+=`<tr><td class="l">${nom(p)}</td>`;
+  for(const s of W){const u=unidades(s)[p];const a=u?(0.15+0.85*u.u/maxCell):0;h+=`<td style="background:${u?`rgba(13,63,196,${a.toFixed(2)})`:''};color:${a>.55?'#fff':'inherit'}" title="${nom(p)} · S${s.w}: ${u?u.u+' u en '+u.o+' líneas':'—'}">${u?u.u:''}</td>`}
+  h+=`<td><b>${per[p].t}</b></td><td>${(per[p].t/per[p].w).toFixed(1)}</td></tr>`}
+ h+='</table></div></div>';
+ h+=`<div class="panel"><h3>Secuencia de la semana ${hsel}</h3><p class="h">Orden en que se programó el trabajo. Cantidad 0 = pendiente de la semana previa.</p>`;
+ let cur='';for(const f of sel.filas){if(f.s!=cur){cur=f.s;h+=`<h2><span>${NS[cur]}</span></h2>`}
+  h+=`<div class="row"><b>OP ${f.op}</b><span>${f.n?f.n+' × ':'<i>0</i> · '}${esc(f.d)}<br><small style="color:var(--pl)">${esc(f.c)}${f.p.length?' · '+f.p.map(nom).join(' / '):''}${f.o?' · '+esc(f.o):''}</small></span><small>${f.t?Math.round(f.k/f.t*100)+'%':''}</small></div>`}
+ h+='</div>';
+ h+=`<div class="panel"><h3>Recorrido de una orden</h3><p class="h">Escribe el número de OP para ver por qué semanas, personas y etapas pasó.</p><input id="ho" type="search" placeholder="Ej. 6776" style="width:100%;padding:10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--tx);font-size:1rem"><div id="hor" style="margin-top:10px"></div></div>`;
+ $('h').innerHTML=h;
+ $('hd').onchange=e=>{hdesde=+e.target.value;drawH()};
+ $('h').querySelectorAll('[data-r]').forEach(b=>b.onclick=()=>{hrol=b.dataset.r;drawH()});
+ $('h').querySelectorAll('[data-w]').forEach(b=>b.onclick=()=>{hsel=+b.dataset.w;drawH()});
+ $('ho').oninput=e=>{const q=e.target.value.trim();let o='';if(q.length>=3){
+   for(const s of HI.semanas)for(const f of s.filas)if(String(f.op)==q)o+=`<div class="row"><b>S${s.w}</b><span>${f.n?f.n+' × ':''}${esc(f.d)}<br><small style="color:var(--pl)">${NS[f.s]}${f.p.length?' · '+f.p.map(nom).join(' / '):''}</small></span><small>${f.t?Math.round(f.k/f.t*100)+'%':''}</small></div>`;
+   o=o||'<p class="vacio">Esa OP no aparece en la secuencia.</p>'}$('hor').innerHTML=o};
+}
 </script>
 </body>
 </html>
